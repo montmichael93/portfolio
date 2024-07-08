@@ -3,6 +3,9 @@ import { Jost } from "next/font/google";
 import "./globals.css";
 import "@/../public/scss/style.scss";
 import Bootstrap from "@/components/Bootstrap/Bootstrap";
+import Provider from "@/components/DarkMode/Provider/Provider";
+import { Suspense } from "react";
+import Loading from "./loading";
 
 const jost = Jost({ subsets: ["latin"] });
 
@@ -20,7 +23,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body suppressHydrationWarning={true} className={jost.className}>
-        <Bootstrap>{children}</Bootstrap>
+        <Provider>
+          <Bootstrap>
+            <Suspense fallback={<Loading />}>{children}</Suspense>
+          </Bootstrap>
+        </Provider>
       </body>
     </html>
   );
