@@ -3,14 +3,16 @@ import resumeIcon from "@/../public/images/resume-icon.png";
 import user from "@/../public/images/user.jpg";
 import { PiArrowRight } from "react-icons/pi";
 import Link from "next/link";
+import TypingEffect from "@/components/TypingEffect/TypingEffect";
 
 const Banner = () => {
+  const texts = ["Developer", "Designer"];
   return (
     <div className="d-flex flex-wrap gap-10 gap-md-15 align-items-center justify-content-between">
       <div className="banner-content">
         <span className="n5-color fs-five">HI, I&apos;M A FREELANCER</span>
         <h2 className="typing-text display-one p1-color mt-2 mb-3">
-          Developer
+          <TypingEffect texts={texts} speed={200} pause={2000} />
         </h2>
         <p className="fs-seven n5-color">
           I&apos;m a software engineer specializing in scalable web apps.
