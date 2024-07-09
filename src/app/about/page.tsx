@@ -1,5 +1,6 @@
 import Banner from "@/components/Pages/About/Banner";
 import Counter from "@/components/Pages/About/Counter";
+import NextProject from "@/components/Pages/About/NextProject";
 import WhatDo from "@/components/Pages/About/WhatDo";
 
 const About = () => {
@@ -12,6 +13,7 @@ const About = () => {
         </div>
       </section>
       <WhatDo />
+      <NextProject />
     </div>
   );
 };
