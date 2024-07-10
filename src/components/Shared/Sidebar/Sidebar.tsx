@@ -7,7 +7,14 @@ import { Dispatch, SetStateAction, useEffect, useState } from "react";
 import { useTheme } from "next-themes";
 import { usePathname } from "next/navigation";
 import { sidebars } from "../../../../public/data/Sidebar";
-import { PiX } from "react-icons/pi";
+import {
+  PiFacebookLogo,
+  PiInstagramLogo,
+  PiLinkedinLogo,
+  PiShoppingCart,
+  PiX,
+} from "react-icons/pi";
+import ThemeButton from "@/components/DarkMode/ThemeButton/ThemeButton";
 
 const Sidebar = ({
   sidebarIsOpen,
@@ -42,7 +49,9 @@ const Sidebar = ({
     <div className="side-menu">
       {/* <!-- sidebar-btn  --> */}
       <div className="sidebar-btn close-btn cursor-pointer d-block d-lg-none">
-        <i className="ph ph-x fs-two p1-color"></i>
+        <i className="fs-two p1-color">
+          <PiX />
+        </i>
       </div>
 
       <div className="d-flex">
@@ -52,9 +61,11 @@ const Sidebar = ({
               <div className="side-icon bgn2-color brn4">
                 <Image src={logo} alt="logo" />
               </div>
-              <Link href="javascript:void(0)" className="position-relative">
+              <Link href="#" className="position-relative">
                 <div className="side-icon bg1-color">
-                  <i className="ph ph-shopping-cart n11-color"></i>
+                  <i className="n11-color">
+                    <PiShoppingCart />
+                  </i>
                 </div>
                 <div className="cart-counter">
                   <span className="n1-color">02</span>
@@ -62,12 +73,9 @@ const Sidebar = ({
               </Link>
               <div className="d-flex flex-column align-items-center gap-1">
                 <span className="toggle_name fs-eleven n5-color">DarkMode</span>
-                <button id="toggle" className="side-icon bg1-color mood_toggle">
-                  <i
-                    className="ph-fill ph-moon fs-five n11-color"
-                    id="mood_icon"
-                  ></i>
-                </button>
+                <div className="side-icon bg1-color">
+                  <ThemeButton />
+                </div>
               </div>
             </div>
           </div>
@@ -90,17 +98,25 @@ const Sidebar = ({
                   Senior Software Engineer
                 </span>
                 <div className="d-flex justify-content-center gap-2 align-items-center mt-4">
-                  <Link href="javascript:void(0)" className="social-icon">
-                    <i className="ph ph-facebook-logo p1-color"></i>
+                  <Link href="#" className="social-icon">
+                    <i className="p1-color">
+                      <PiFacebookLogo />
+                    </i>
                   </Link>
-                  <Link href="javascript:void(0)" className="social-icon">
-                    <i className="ph ph-instagram-logo p1-color"></i>
+                  <Link href="#" className="social-icon">
+                    <i className="p1-color">
+                      <PiInstagramLogo />
+                    </i>
                   </Link>
-                  <Link href="javascript:void(0)" className="social-icon">
-                    <i className="ph ph-x-logo p1-color"></i>
+                  <Link href="#" className="social-icon">
+                    <i className="p1-color">
+                      <PiX />
+                    </i>
                   </Link>
-                  <Link href="javascript:void(0)" className="social-icon">
-                    <i className="ph ph-linkedin-logo p1-color"></i>
+                  <Link href="#" className="social-icon">
+                    <i className="p1-color">
+                      <PiLinkedinLogo />
+                    </i>
                   </Link>
                 </div>
               </div>

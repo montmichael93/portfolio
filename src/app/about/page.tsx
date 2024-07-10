@@ -5,6 +5,7 @@ import LatestBlog from "@/components/Pages/About/LatestBlog";
 import NextProject from "@/components/Pages/About/NextProject";
 import Testimonials from "@/components/Pages/About/Testimonials";
 import WhatDo from "@/components/Pages/About/WhatDo";
+import Footer from "@/components/Shared/Footer/Footer";
 
 const About = () => {
   return (
@@ -20,6 +21,7 @@ const About = () => {
       <Featured />
       <Testimonials />
       <LatestBlog />
+      <Footer />
     </div>
   );
 };

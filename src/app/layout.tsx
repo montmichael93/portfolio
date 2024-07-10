@@ -10,6 +10,7 @@ import { Suspense, useEffect, useState } from "react";
 import Loading from "./loading";
 import Sidebar from "@/components/Shared/Sidebar/Sidebar";
 import Topbar from "@/components/Shared/Topbar/Topbar";
+import Footer from "@/components/Shared/Footer/Footer";
 
 const jost = Jost({ subsets: ["latin"] });
 

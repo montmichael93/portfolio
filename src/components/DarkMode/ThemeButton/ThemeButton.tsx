@@ -1,7 +1,7 @@
 "use client";
 import { useTheme } from "next-themes";
 import { useState, useEffect } from "react";
-import {  PiMoonFill, PiSunFill } from "react-icons/pi";
+import { PiMoonFill, PiSunFill } from "react-icons/pi";
 
 const ThemeButton = () => {
   const { resolvedTheme, setTheme } = useTheme();
@@ -16,11 +16,11 @@ const ThemeButton = () => {
   }
 
   return (
-    <div className="flex items-center gap-2">
+    <div className="d-flex align-items-center gap-2">
       <button
         onClick={() => setTheme(resolvedTheme === "light" ? "dark" : "light")}
       >
-        <span className="dark_btn d-flex justify-content-center align-items-center fs-four p6-color">
+        <span className="dark_btn d-flex justify-content-center align-items-center n11-color">
           {resolvedTheme === "light" ? <PiMoonFill /> : <PiSunFill />}
         </span>
       </button>
