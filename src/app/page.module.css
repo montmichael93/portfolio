@@ -1,0 +1,71 @@
+.colorSwitcher {
+    position: fixed;
+    right: 0;
+    top: 50%;
+    z-index: 101;
+    display: flex;
+    align-items: center;
+    width: 160px;
+    transform: translate(130px, -50%);
+    transition: all 0.3s ease-out;
+  }
+  
+  .switcherBtn {
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 8px 0 0 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(var(--p1), 1);
+    color: rgba(var(--n11), 1);
+  }
+  
+  .pallates {
+    background-color: rgba(var(--n1), 1);
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .colorBtn {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .opened {
+    transform: translate(0, -50%);
+  }
+  
+  .boxShadow2 {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .brn4 {
+    border-radius: 4px;
+  }
+  
+  .bgColor1 {
+    background-color: rgb(120, 171, 168);
+  }
+  
+  .bgColor2 {
+    background-color: rgb(255, 145, 251);
+  }
+  
+  .bgColor3 {
+    background-color: rgb(253, 187, 46);
+  }
+  
+  .bgColor4 {
+    background-color: rgb(255, 219, 103);
+  }
+  
+  .bgColor5 {
+    background-color: rgb(0, 255, 255);
+  }
+  
+  .bgColor6 {
+    background-color: rgb(84, 182, 137);
+  }
+  

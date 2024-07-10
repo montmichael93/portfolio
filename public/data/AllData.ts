@@ -39,111 +39,119 @@ export const services = [
     id: 1,
     title: "Vanilla JavaScript",
     des: "List skills and technologies here. Customize as needed. Built on HTML5, Sass, and Bootstrap 5.",
-    imgs: [{ img: js }],
+    imgs: [js],
   },
   {
     id: 2,
     title: "Angular, React & Vue",
     des: "List skills and technologies here. Customize as needed. Built on HTML5, Sass, and Bootstrap 5.",
-    imgs: [{ id: 1, img: angular, img1: react, img2: vue }],
+    imgs: [angular, react, vue],
   },
   {
     id: 3,
     title: "Node.js",
     des: "List skills and technologies here. Customize as needed. Built on HTML5, Sass, and Bootstrap 5.",
-    imgs: [{ id: 1, img: node }],
+    imgs: [node],
   },
   {
     id: 4,
     title: "Python & Django",
     des: "List skills and technologies here. Customize as needed. Built on HTML5, Sass, and Bootstrap 5.",
-    imgs: [{ id: 1, img: python }],
+    imgs: [python],
   },
   {
     id: 5,
     title: "PHP",
     des: "List skills and technologies here. Customize as needed. Built on HTML5, Sass, and Bootstrap 5.",
-    imgs: [{ id: 1, img: php }],
+    imgs: [php],
   },
   {
     id: 6,
     title: "npm, Gulp & Grunt",
     des: "List skills and technologies here. Customize as needed. Built on HTML5, Sass, and Bootstrap 5.",
-    imgs: [{ id: 1, img: npm, img1: gulp, img2: grunt }],
+    imgs: [npm, gulp, grunt],
   },
   {
     id: 7,
     title: "Vanilla JavaScript",
     des: "List skills and technologies here. Customize as needed. Built on HTML5, Sass, and Bootstrap 5.",
-    imgs: [{ id: 1, img: html, img1: css }],
+    imgs: [html, css],
   },
   {
     id: 8,
     title: "Vanilla JavaScript",
     des: "List skills and technologies here. Customize as needed. Built on HTML5, Sass, and Bootstrap 5.",
-    imgs: [{ id: 1, img: sass, img1: less }],
+    imgs: [sass, less],
   },
 ];
 
 export const featureds = [
   {
     id: 1,
-    img: project1,
+
     tag1: "React Js",
     tag2: "gsap",
     tag3: "Web Development",
     title: "Crypto Website Development for DeFi X",
+    img: project1,
   },
   {
     id: 2,
-    img: project2,
+
     tag1: "React Js",
     tag2: "gsap",
     tag3: "Web Development",
     title: "Salesforce CRM - Invoice Management ",
+    img: project2,
   },
   {
     id: 3,
-    img: project3,
+
     tag1: "React Js",
     tag2: "gsap",
     tag3: "Web Development",
     title: "Car Rental App",
+    img: project3,
   },
   {
     id: 4,
-    img: project4,
+
     tag1: "React Js",
     tag2: "gsap",
     tag3: "Web Development",
     title: "Financial management",
+    img: project4,
   },
 ];
 
 export const testimonials = [
   {
     id: 1,
-    img: buyer1,
+
     name: "Esther Howard",
     des: "I highly recommend Portfolify to anyone looking for a high-quality and responsive Bootstrap theme.",
+    img: buyer1,
   },
   {
     id: 2,
-    img: buyer2,
+
     name: "Robert Fox",
     des: "Portfolify is the perfect theme for businesses that want to create a stylish and functional website.",
+    img: buyer2,
   },
   {
     id: 3,
-    img: buyer3,
+
     name: "Cameron Williamson",
     des: "Portfolify helped us create a stunning and clear website that reflects our brand perfectly.",
+    img: buyer3,
   },
   {
     id: 4,
-    img: buyer4,
+
     name: "Jenny Wilson",
     des: "Best Bootstrap template ever: easy to customize, feature-rich, responsive and meets all our needs.",
+    img: buyer4,
   },
   {
     id: 5,

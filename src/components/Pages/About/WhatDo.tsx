@@ -50,7 +50,39 @@ const WhatDo = () => {
         </div>
 
         <div className="row g-3 g-md-6 pt-60">
-          <div
+          {services.map(
+            ({
+              id,
+              title,
+              des,
+              imgs,
+            }: {
+              id: number;
+              title: string;
+              des: string;
+              imgs: StaticImageData[];
+            }) => (
+              <div
+                key={id}
+                className="col-sm-6 col-md-4 col-lg-6 col-xl-4 col-xxl-3"
+              >
+                <div className="service-card px-4 px-lg-8 py-5 py-lg-10">
+                  <div className="d-flex align-items-center gap-3">
+                    {imgs.map((img, idx) => (
+                      <div key={idx}>
+                        <Image src={img} alt="..." className="service-icon" />
+                      </div>
+                    ))}
+                  </div>
+                  <h4 className="fs-six n5-color fw-medium mt-3 mt-md-6 mb-2 mb-md-3">
+                    {title}
+                  </h4>
+                  <p className="fs-seven n4-color">{des}</p>
+                </div>
+              </div>
+            )
+          )}
+          {/* <div
             data-aos="fade-up"
             data-aos-duration="500"
             className="col-sm-6 col-md-4 col-lg-6 col-xl-4 col-xxl-3"
@@ -191,7 +223,7 @@ const WhatDo = () => {
                 HTML5, Sass, and Bootstrap 5.
               </p>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

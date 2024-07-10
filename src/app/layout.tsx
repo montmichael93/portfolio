@@ -10,7 +10,7 @@ import { Suspense, useEffect, useState } from "react";
 import Loading from "./loading";
 import Sidebar from "@/components/Shared/Sidebar/Sidebar";
 import Topbar from "@/components/Shared/Topbar/Topbar";
-import Footer from "@/components/Shared/Footer/Footer";
+import ColorSwitcher from "@/components/Shared/ColorPalettes/ColorSwitcher";
 
 const jost = Jost({ subsets: ["latin"] });
 
@@ -63,6 +63,7 @@ export default function RootLayout({
 
                 {children}
               </div>
+              <ColorSwitcher />
             </Suspense>
           </Bootstrap>
         </Provider>

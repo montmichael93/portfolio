@@ -11,6 +11,7 @@ import {
   PiFacebookLogo,
   PiInstagramLogo,
   PiLinkedinLogo,
+  PiPaperPlaneTilt,
   PiShoppingCart,
   PiX,
 } from "react-icons/pi";
@@ -80,6 +81,7 @@ const Sidebar = ({
             </div>
           </div>
         </div>
+
         <div className="side-menu-right overflow-y-auto">
           <div className="d-flex flex-column gap-6 justify-content-between py-10 px-5 bgn2-color h-100">
             <div className="">
@@ -186,7 +188,10 @@ const Sidebar = ({
               href="contact.html"
               className="p-btn bg1-color fw-medium n11-color px-3 px-md-6 py-2 py-md-4 rounded-pill d-flex align-items-center gap-2 mx-auto"
             >
-              <i className="ph ph-paper-plane-tilt"></i>Hire Me
+              <i className="ph ph-paper-plane-tilt">
+                <PiPaperPlaneTilt />
+              </i>
+              Hire Me
             </Link>
           </div>
         </div>
