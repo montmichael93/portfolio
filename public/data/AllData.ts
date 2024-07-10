@@ -13,6 +13,12 @@ import css from "@/../public/images/css.png";
 import sass from "@/../public/images/sass.png";
 import less from "@/../public/images/less.png";
 
+// features img
+import project1 from "@/../public/images/project1.png";
+import project2 from "@/../public/images/project2.png";
+import project3 from "@/../public/images/project3.png";
+import project4 from "@/../public/images/project4.png";
+
 export const services = [
   {
     id: 1,
@@ -61,5 +67,40 @@ export const services = [
     title: "Vanilla JavaScript",
     des: "List skills and technologies here. Customize as needed. Built on HTML5, Sass, and Bootstrap 5.",
     imgs: [{ id: 1, img: sass, img1: less }],
+  },
+];
+
+export const featureds = [
+  {
+    id: 1,
+    img: project1,
+    tag1: "React Js",
+    tag2: "gsap",
+    tag3: "Web Development",
+    title: "Crypto Website Development for DeFi X",
+  },
+  {
+    id: 2,
+    img: project2,
+    tag1: "React Js",
+    tag2: "gsap",
+    tag3: "Web Development",
+    title: "Salesforce CRM - Invoice Management ",
+  },
+  {
+    id: 3,
+    img: project3,
+    tag1: "React Js",
+    tag2: "gsap",
+    tag3: "Web Development",
+    title: "Car Rental App",
+  },
+  {
+    id: 4,
+    img: project4,
+    tag1: "React Js",
+    tag2: "gsap",
+    tag3: "Web Development",
+    title: "Financial management",
   },
 ];
