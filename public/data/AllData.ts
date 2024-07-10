@@ -19,6 +19,11 @@ import project2 from "@/../public/images/project2.png";
 import project3 from "@/../public/images/project3.png";
 import project4 from "@/../public/images/project4.png";
 
+import buyer1 from "@/../public/images/buyer1.png";
+import buyer2 from "@/../public/images/buyer2.png";
+import buyer3 from "@/../public/images/buyer3.png";
+import buyer4 from "@/../public/images/buyer4.png";
+
 export const services = [
   {
     id: 1,
@@ -102,5 +107,38 @@ export const featureds = [
     tag2: "gsap",
     tag3: "Web Development",
     title: "Financial management",
+  },
+];
+
+export const testimonials = [
+  {
+    id: 1,
+    img: buyer1,
+    name: "Esther Howard",
+    des: "I highly recommend Portfolify to anyone looking for a high-quality and responsive Bootstrap theme.",
+  },
+  {
+    id: 2,
+    img: buyer2,
+    name: "Robert Fox",
+    des: "Portfolify is the perfect theme for businesses that want to create a stylish and functional website.",
+  },
+  {
+    id: 3,
+    img: buyer3,
+    name: "Cameron Williamson",
+    des: "Portfolify helped us create a stunning and clear website that reflects our brand perfectly.",
+  },
+  {
+    id: 4,
+    img: buyer4,
+    name: "Jenny Wilson",
+    des: "Best Bootstrap template ever: easy to customize, feature-rich, responsive and meets all our needs.",
+  },
+  {
+    id: 5,
+    img: buyer2,
+    name: "Robert Fox",
+    des: "Portfolify is the perfect theme for businesses that want to create a stylish and functional website.",
   },
 ];
