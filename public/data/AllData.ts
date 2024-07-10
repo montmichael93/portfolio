@@ -24,6 +24,16 @@ import buyer2 from "@/../public/images/buyer2.png";
 import buyer3 from "@/../public/images/buyer3.png";
 import buyer4 from "@/../public/images/buyer4.png";
 
+import blog1 from "@/../public/images/blog1.png";
+import blog2 from "@/../public/images/blog2.png";
+import blog3 from "@/../public/images/blog3.png";
+import blog4 from "@/../public/images/blog4.png";
+import blog5 from "@/../public/images/blog5.png";
+import blog6 from "@/../public/images/blog6.png";
+import blog7 from "@/../public/images/blog7.png";
+import blog8 from "@/../public/images/blog8.png";
+import blog9 from "@/../public/images/blog9.png";
+
 export const services = [
   {
     id: 1,
@@ -140,5 +150,29 @@ export const testimonials = [
     img: buyer2,
     name: "Robert Fox",
     des: "Portfolify is the perfect theme for businesses that want to create a stylish and functional website.",
+  },
+];
+
+export const blogs = [
+  {
+    id: 1,
+    img: blog1,
+    date: "April 18, 2024",
+    tag: "Articles",
+    title: "7 Great Web Development Languages to Learn this Year",
+  },
+  {
+    id: 2,
+    img: blog2,
+    date: "March 22, 2024",
+    tag: "Tutorials",
+    title: "How to Optimize your Website for Better Performance",
+  },
+  {
+    id: 3,
+    img: blog3,
+    date: "May 08, 2024",
+    tag: "Articles",
+    title: "8 Tips to Improve your Web Development Skills in 2024",
   },
 ];

@@ -1,6 +1,7 @@
 import Banner from "@/components/Pages/About/Banner";
 import Counter from "@/components/Pages/About/Counter";
 import Featured from "@/components/Pages/About/Featured";
+import LatestBlog from "@/components/Pages/About/LatestBlog";
 import NextProject from "@/components/Pages/About/NextProject";
 import Testimonials from "@/components/Pages/About/Testimonials";
 import WhatDo from "@/components/Pages/About/WhatDo";
@@ -18,6 +19,7 @@ const About = () => {
       <NextProject />
       <Featured />
       <Testimonials />
+      <LatestBlog />
     </div>
   );
 };
