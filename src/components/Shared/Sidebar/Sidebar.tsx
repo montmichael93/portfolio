@@ -150,7 +150,7 @@ const Sidebar = ({
                   </li>
                   <li className="rounded-3">
                     <Link
-                      href="price.html"
+                      href="/price"
                       className="d-flex align-items-center gap-2 n5-color fs-eight px-3 py-2"
                     >
                       <i className="ph ph-briefcase fs-six"></i>Services &
@@ -159,7 +159,7 @@ const Sidebar = ({
                   </li>
                   <li className="rounded-3">
                     <Link
-                      href="resume.html"
+                      href="/resume"
                       className="d-flex align-items-center gap-2 n5-color fs-eight px-3 py-2"
                     >
                       <i className="ph ph-notebook fs-six"></i> Resume
@@ -167,7 +167,7 @@ const Sidebar = ({
                   </li>
                   <li className="rounded-3">
                     <Link
-                      href="blog.html"
+                      href="/blog"
                       className="d-flex align-items-center gap-2 n5-color fs-eight px-3 py-2"
                     >
                       <i className="ph ph-newspaper-clipping fs-six"></i>Blog
@@ -175,7 +175,7 @@ const Sidebar = ({
                   </li>
                   <li className="rounded-3">
                     <Link
-                      href="contact.html"
+                      href="/contact"
                       className="d-flex align-items-center gap-2 n5-color fs-eight px-3 py-2"
                     >
                       <i className="ph ph-envelope fs-six"></i>Contact
