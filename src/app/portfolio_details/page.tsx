@@ -22,7 +22,7 @@ const PortfolioDetails = () => {
               likely to land your next project or job.
             </p>
             <a
-              href="contact.html"
+              href="/contact"
               className="w-max p-btn bg1-color fw-medium n11-color px-3 px-md-6 py-2 py-md-4 rounded-pill d-flex align-items-center gap-2 mx-auto"
             >
               <PiPaperPlaneTilt />

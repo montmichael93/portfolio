@@ -73,13 +73,13 @@ export const services = [
   },
   {
     id: 7,
-    title: "Vanilla JavaScript",
+    title: "HTML & CSS",
     des: "List skills and technologies here. Customize as needed. Built on HTML5, Sass, and Bootstrap 5.",
     imgs: [html, css],
   },
   {
     id: 8,
-    title: "Vanilla JavaScript",
+    title: "Sass & LESS",
     des: "List skills and technologies here. Customize as needed. Built on HTML5, Sass, and Bootstrap 5.",
     imgs: [sass, less],
   },
@@ -88,7 +88,6 @@ export const services = [
 export const featureds = [
   {
     id: 1,
-
     tag1: "React Js",
     tag2: "gsap",
     tag3: "Web Development",
@@ -97,7 +96,6 @@ export const featureds = [
   },
   {
     id: 2,
-
     tag1: "React Js",
     tag2: "gsap",
     tag3: "Web Development",
@@ -106,7 +104,6 @@ export const featureds = [
   },
   {
     id: 3,
-
     tag1: "React Js",
     tag2: "gsap",
     tag3: "Web Development",
@@ -115,7 +112,6 @@ export const featureds = [
   },
   {
     id: 4,
-
     tag1: "React Js",
     tag2: "gsap",
     tag3: "Web Development",
@@ -124,7 +120,6 @@ export const featureds = [
   },
   {
     id: 5,
-
     tag1: "React Js",
     tag2: "gsap",
     tag3: "Web Development",
@@ -133,7 +128,6 @@ export const featureds = [
   },
   {
     id: 6,
-
     tag1: "React Js",
     tag2: "gsap",
     tag3: "Web Development",
@@ -142,7 +136,6 @@ export const featureds = [
   },
   {
     id: 7,
-
     tag1: "React Js",
     tag2: "gsap",
     tag3: "Web Development",
@@ -151,7 +144,6 @@ export const featureds = [
   },
   {
     id: 8,
-
     tag1: "React Js",
     tag2: "gsap",
     tag3: "Web Development",
@@ -218,5 +210,83 @@ export const blogs = [
     date: "May 08, 2024",
     tag: "Articles",
     title: "8 Tips to Improve your Web Development Skills in 2024",
+  },
+];
+
+export const packagesPrice = [
+  {
+    id: 1,
+    title: "Basic",
+    price: "900",
+    time: "Per Month",
+    services: [
+      "Web Development",
+      "UI/UX Design",
+      "Webflow Development",
+      "Website Optimization",
+      "24/7 Support",
+    ],
+    btn: "Choose Basic",
+  },
+  {
+    id: 2,
+    title: "Standard",
+    price: "2500",
+    time: "Per Month",
+    services: [
+      "Web Development",
+      "UI/UX Design",
+      "Webflow Development",
+      "Website Optimization",
+      "24/7 Support",
+    ],
+    btn: "Choose Standard",
+  },
+  {
+    id: 3,
+    title: "Premium",
+    price: "5000",
+    time: "Per Month",
+    services: [
+      "Web Development",
+      "UI/UX Design",
+      "Webflow Development",
+      "Website Optimization",
+      "24/7 Support",
+    ],
+    btn: "Choose Premium",
+  },
+];
+
+export const frequentlyData = [
+  {
+    id: 1,
+    questions: "What is Portfolify",
+    answers:
+      "This is the first items accordion body.It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. Its also worth noting that just about any HTML can go within the accordion-body, though the transition does limit overflow.",
+  },
+  {
+    id: 2,
+    questions: "How Can I Help You?",
+    answers:
+      "This is the first items accordion body.It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. Its also worth noting that just about any HTML can go within the accordion-body, though the transition does limit overflow.",
+  },
+  {
+    id: 3,
+    questions: "Simple process for workflow?",
+    answers:
+      "This is the first items accordion body.It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. Its also worth noting that just about any HTML can go within the accordion-body, though the transition does limit overflow.",
+  },
+  {
+    id: 4,
+    questions: "Why responsive multi page template?",
+    answers:
+      "This is the first items accordion body.It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. Its also worth noting that just about any HTML can go within the accordion-body, though the transition does limit overflow.",
+  },
+  {
+    id: 5,
+    questions: "Is Portfolify a Multi-purpose template?",
+    answers:
+      "This is the first items accordion body.It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. Its also worth noting that just about any HTML can go within the accordion-body, though the transition does limit overflow.",
   },
 ];

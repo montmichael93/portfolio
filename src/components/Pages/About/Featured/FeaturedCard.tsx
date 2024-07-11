@@ -17,7 +17,7 @@ const FeaturedCard = ({
 }) => {
   return (
     <div className="col-xl-6">
-      <Link href="portfolio_details.html" className="project-card">
+      <Link href="/portfolio_details" className="project-card">
         <div>
           <Image src={img} alt="project" className="p-2 w-100" />
         </div>

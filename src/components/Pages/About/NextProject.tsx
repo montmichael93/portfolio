@@ -16,7 +16,7 @@ const NextProject = () => {
         </div>
         <a
           data-aos="zoom-in-right"
-          href="contact.html"
+          href="/contact"
           className="p-btn bg1-color fw-medium n11-color px-3 px-md-6 py-2 py-md-4 rounded-pill d-flex align-items-center gap-2 h-100"
         >
           <PiArrowRight />

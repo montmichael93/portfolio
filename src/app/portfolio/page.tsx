@@ -6,6 +6,7 @@ import { PiPaperPlaneTilt } from "react-icons/pi";
 import { featureds } from "../../../public/data/AllData";
 import FeaturedCard from "@/components/Pages/About/Featured/FeaturedCard";
 import Footer from "@/components/Shared/Footer/Footer";
+import Link from "next/link";
 
 const Portfolio = () => {
   return (
@@ -21,12 +22,12 @@ const Portfolio = () => {
               experience working on projects across multiple industries and
               technologies. Let me show you my best creations.
             </p>
-            <a
+            <Link
               href="/contact"
               className="w-max p-btn bg1-color fw-medium n11-color px-3 px-md-6 py-2 py-md-4 rounded-pill d-flex align-items-center gap-2 mx-auto"
             >
               <PiPaperPlaneTilt /> Hire Me
-            </a>
+            </Link>
           </div>
         </div>
         <div className="container mt-8 mt-md-15">
