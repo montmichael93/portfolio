@@ -128,7 +128,7 @@ const Sidebar = ({
                 <ul className="d-flex flex-column gap-3">
                   <li className="rounded-3 bg1-color">
                     <Link
-                      href="index.html"
+                      href="/"
                       className="d-flex align-items-center gap-2 n11-color fs-eight px-3 py-2"
                     >
                       <i className="ph ph-user fs-six"></i> About Me
@@ -137,7 +137,7 @@ const Sidebar = ({
 
                   <li className="rounded-3">
                     <Link
-                      href="portfolio.html"
+                      href="/portfolio"
                       className="d-flex justify-content-between align-items-center"
                     >
                       <div className="d-flex align-items-center gap-2 n5-color fs-eight px-3 py-2">

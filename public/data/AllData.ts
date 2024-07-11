@@ -122,6 +122,42 @@ export const featureds = [
     title: "Financial management",
     img: project4,
   },
+  {
+    id: 5,
+
+    tag1: "React Js",
+    tag2: "gsap",
+    tag3: "Web Development",
+    title: "Crypto Website Development for DeFi X",
+    img: project1,
+  },
+  {
+    id: 6,
+
+    tag1: "React Js",
+    tag2: "gsap",
+    tag3: "Web Development",
+    title: "Salesforce CRM - Invoice Management ",
+    img: project2,
+  },
+  {
+    id: 7,
+
+    tag1: "React Js",
+    tag2: "gsap",
+    tag3: "Web Development",
+    title: "Car Rental App",
+    img: project3,
+  },
+  {
+    id: 8,
+
+    tag1: "React Js",
+    tag2: "gsap",
+    tag3: "Web Development",
+    title: "Financial management",
+    img: project4,
+  },
 ];
 
 export const testimonials = [

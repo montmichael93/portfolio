@@ -152,31 +152,12 @@
 
 // ------portfolio page style------------
 
-// tab
-[data-tab-content] {
-  transition: all 0.5s ease-in-out;
-  opacity: 0;
-  visibility: hidden;
-  overflow: hidden;
-  height: 0;
-  transform: translateY(-100px);
-}
-
-.active[data-tab-content] {
-  transition: all 0.5s ease-in-out;
-  opacity: 1;
-  visibility: visible;
-  overflow: hidden;
-  transform: translateY(0px);
-  height: auto;
-}
-
-.tab.active {
+.tab-active {
   color: rgba(var(--p1), 1);
   border-bottom: 2px solid rgba(var(--p1), 1);
+  outline: none;
 }
 
-// ------------portfolio details page style ----------
 .project-details-content {
   .portfolio-details-img {
     transition: all 0.5s ease-in-out;
