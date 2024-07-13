@@ -1,4 +1,34 @@
+"use client";
+import { useRef } from "react";
+import emailjs from "@emailjs/browser";
+import Swal from "sweetalert2";
+import withReactContent from "sweetalert2-react-content";
+
+const MySwal = withReactContent(Swal);
+
 const GetInTouch = () => {
+  const form = useRef<HTMLFormElement | null>(null);
+  const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_296zk0t",
+        "template_o1p07t1",
+        //@ts-ignore
+        form.current,
+        "iRiBvzqwpD9U0kHbS"
+      )
+
+      .then(
+        (result) => {
+          MySwal.fire("Message Send Successfully!");
+        },
+        (error) => {
+          MySwal.fire("Message Not Send!");
+        }
+      );
+  };
   return (
     <section className="pb-120">
       <div className="container">
@@ -14,8 +44,8 @@ const GetInTouch = () => {
           </p>
         </div>
         <form
-          data-aos="zoom-in"
-          id="contact-form"
+          ref={form}
+          onSubmit={sendEmail}
           className="mt-8 mt-md-15 p-5 p-md-10 rounded-5 brn4"
         >
           <div className="d-flex flex-wrap flex-md-nowrap gap-3 gap-md-6 mb-3 mb-md-6">
@@ -77,10 +107,7 @@ const GetInTouch = () => {
               time.
             </label>
           </div>
-          <button
-            id="contact-submit-btn"
-            className="p-btn bg1-color fw-medium n11-color px-3 px-md-6 py-2 py-md-4 rounded-pill mt-5 mt-md-10"
-          >
+          <button className="p-btn bg1-color fw-medium n11-color px-3 px-md-6 py-2 py-md-4 rounded-pill mt-5 mt-md-10">
             Send Message
           </button>
         </form>
