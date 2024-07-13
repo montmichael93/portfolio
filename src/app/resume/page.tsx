@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
 import {
   PiEnvelopeSimple,
+  PiFilePdf,
   PiGithubLogo,
   PiGlobe,
   PiGraduationCap,
@@ -13,7 +13,6 @@ import {
   PiXLogo,
 } from "react-icons/pi";
 import profile from "@/../public/images/profile.png";
-
 const Resume = () => {
   return (
     <div className="main-content w-100">
@@ -24,13 +23,13 @@ const Resume = () => {
               Online Resume
             </h3>
 
-            <Link
-              href="./assets/images/resume.pdf"
+            <a
+              href="/images/resume.pdf"
               className="w-max p-btn bg1-color fw-medium n1-color px-3 px-md-6 py-2 py-md-4 rounded-pill d-flex align-items-center gap-2 mx-auto"
               download
             >
-              <i className="ph ph-file-pdf"></i>Download PDF Version
-            </Link>
+              <PiFilePdf /> Download PDF Version
+            </a>
           </div>
         </div>
 

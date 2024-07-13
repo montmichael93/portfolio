@@ -6,7 +6,6 @@ import logo from "@/../public/images/logo.png";
 import { Dispatch, SetStateAction, useEffect, useState } from "react";
 import { useTheme } from "next-themes";
 import { usePathname } from "next/navigation";
-import { sidebars } from "../../../../public/data/Sidebar";
 import {
   PiFacebookLogo,
   PiInstagramLogo,
@@ -25,7 +24,7 @@ const Sidebar = ({
   setSidebarIsOpen: Dispatch<SetStateAction<boolean>>;
 }) => {
   const { theme } = useTheme();
-  const [activeMenu, setActiveMenu] = useState(sidebars[0].name);
+  // const [activeMenu, setActiveMenu] = useState(sidebars[0].name);
   const path = usePathname();
 
   return (
