@@ -332,3 +332,27 @@ export const frequentlyData = [
       "This is the first items accordion body.It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. Its also worth noting that just about any HTML can go within the accordion-body, though the transition does limit overflow.",
   },
 ];
+
+export const commentsData = [
+  {
+    id: 1,
+    img: buyer1,
+    name: "Ronald Richards",
+    date: "Mar 03,2023",
+    des: "Lorem ipsum dolor sit amet, consectetur adipiscing elit lobortis arcu enim urna adipiscing praesent velit viverra sit semper lorem eu cursus vel hendrerit elementum morbi curabitur etiam nibh justo, lorem aliquet donec sed sit mi dignissim at ante massa mattis.",
+  },
+  {
+    id: 2,
+    img: buyer2,
+    name: "Jacob Jones",
+    date: "May 9, 2024",
+    des: "Lorem ipsum dolor sit amet, consectetur adipiscing elit lobortis arcu enim urna adipiscing praesent velit viverra sit semper lorem eu cursus vel hendrerit elementum morbi curabitur etiam nibh justo, lorem aliquet donec sed sit mi dignissim at ante massa mattis.",
+  },
+  {
+    id: 3,
+    img: buyer3,
+    name: "Eleanor Pena",
+    date: "October 25, 2020",
+    des: "Lorem ipsum dolor sit amet, consectetur adipiscing elit lobortis arcu enim urna adipiscing praesent velit viverra sit semper lorem eu cursus vel hendrerit elementum morbi curabitur etiam nibh justo, lorem aliquet donec sed sit mi dignissim at ante massa mattis.",
+  },
+];

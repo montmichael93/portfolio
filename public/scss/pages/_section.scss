@@ -354,6 +354,19 @@
   .reply-section {
     width: 636px;
   }
+
+  .show-reply {
+    visibility: visible;
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
+    max-height: 200px;
+  }
+  .hidden-reply {
+    visibility: hidden;
+    opacity: 0;
+    transition: all 1s ease-in-out;
+    max-height: 0px;
+  }
 }
 
 // responsive style
@@ -407,6 +420,7 @@
       border-radius: 50%;
       object-fit: cover;
     }
+
     .reply-section {
       width: 100%;
     }
