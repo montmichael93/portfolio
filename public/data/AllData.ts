@@ -211,6 +211,48 @@ export const blogs = [
     tag: "Articles",
     title: "8 Tips to Improve your Web Development Skills in 2024",
   },
+  {
+    id: 4,
+    img: blog4,
+    date: "April 18, 2024",
+    tag: "Articles",
+    title: "5 Great Web Development Frameworks to Learn in 2022",
+  },
+  {
+    id: 5,
+    img: blog5,
+    date: "March 22, 2024",
+    tag: "Tutorials",
+    title: "Top 3 JavaScript Frameworks",
+  },
+  {
+    id: 6,
+    img: blog6,
+    date: "May 08, 2024",
+    tag: "Articles",
+    title: "A Guide to Becoming a Full-Stack Developer",
+  },
+  {
+    id: 7,
+    img: blog7,
+    date: "April 18, 2024",
+    tag: "Articles",
+    title: "High Performance JavaScript",
+  },
+  {
+    id: 8,
+    img: blog8,
+    date: "March 22, 2024",
+    tag: "Tutorials",
+    title: "Learn React in 24 Hours",
+  },
+  {
+    id: 9,
+    img: blog9,
+    date: "May 08, 2024",
+    tag: "Articles",
+    title: "How to Build Desktop Apps with HTML, CSS and JavaScript",
+  },
 ];
 
 export const packagesPrice = [
