@@ -2,19 +2,17 @@ import { Dispatch, SetStateAction } from "react";
 import { PiList } from "react-icons/pi";
 
 const Topbar = ({
-  sidebarIsOpen,
-  setSidebarIsOpen,
+  sidebarOpen,
+  setSidebarOpen,
 }: {
-  sidebarIsOpen: boolean;
-  setSidebarIsOpen: Dispatch<SetStateAction<boolean>>;
+  sidebarOpen: boolean;
+  setSidebarOpen: Dispatch<SetStateAction<boolean>>;
 }) => {
   return (
     <div className="w-100 bg1-color p-3 position-fixed z-3 top-0 d-flex align-items-center justify-content-between d-block d-lg-none">
       <div
         className="sidebar-btn cursor-pointer"
-        onClick={() => {
-          setSidebarIsOpen((prev) => !prev);
-        }}
+        onClick={() => setSidebarOpen(!sidebarOpen)}
       >
         <i className=" fs-two n11-color">
           <PiList />

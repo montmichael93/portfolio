@@ -25,40 +25,22 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const [sidebarIsOpen, setSidebarIsOpen] = useState(false);
-
-  useEffect(() => {
-    if (window.innerWidth > 992) {
-      setSidebarIsOpen(true);
-    } else {
-      setSidebarIsOpen(false);
-    }
-    const handleResize = () => {
-      if (window.innerWidth < 992) {
-        setSidebarIsOpen(false);
-      } else {
-        setSidebarIsOpen(true);
-      }
-    };
-    window.addEventListener("resize", handleResize);
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
-  }, []);
+  const [sidebarOpen, setSidebarOpen] = useState(false);
+  console.log(sidebarOpen);
   return (
     <html lang="en">
       <body suppressHydrationWarning={true} className={jost.className}>
         <Provider>
           <Bootstrap>
             <Suspense fallback={<Loading />}>
-              <div className="d-flex">
+              <div className="d-flex gap-6">
                 <Sidebar
-                  sidebarIsOpen={sidebarIsOpen}
-                  setSidebarIsOpen={setSidebarIsOpen}
+                  sidebarOpen={sidebarOpen}
+                  setSidebarOpen={setSidebarOpen}
                 />
                 <Topbar
-                  sidebarIsOpen={sidebarIsOpen}
-                  setSidebarIsOpen={setSidebarIsOpen}
+                  sidebarOpen={sidebarOpen}
+                  setSidebarOpen={setSidebarOpen}
                 />
 
                 {children}

@@ -3,7 +3,13 @@ import Image from "next/image";
 import Link from "next/link";
 import profile from "@/../public/images/profile.png";
 import logo from "@/../public/images/logo.png";
-import { Dispatch, SetStateAction, useEffect, useState } from "react";
+import React, {
+  Dispatch,
+  SetStateAction,
+  useEffect,
+  useRef,
+  useState,
+} from "react";
 import { useTheme } from "next-themes";
 import { usePathname } from "next/navigation";
 import {
@@ -17,38 +23,24 @@ import {
 import ThemeButton from "@/components/DarkMode/ThemeButton/ThemeButton";
 
 const Sidebar = ({
-  sidebarIsOpen,
-  setSidebarIsOpen,
+  sidebarOpen,
+  setSidebarOpen,
 }: {
-  sidebarIsOpen: boolean;
-  setSidebarIsOpen: Dispatch<SetStateAction<boolean>>;
+  sidebarOpen: boolean;
+  setSidebarOpen: React.Dispatch<React.SetStateAction<boolean>>;
 }) => {
+
   const { theme } = useTheme();
   // const [activeMenu, setActiveMenu] = useState(sidebars[0].name);
   const path = usePathname();
 
   return (
-    // <nav
-    //   className={`sidebar-main ${
-    //     sidebarIsOpen
-    //       ? "sidebar-transition-visible"
-    //       : "sidebar-transition-invisible"
-    //   }`}
-    // >
-    //   <div
-    //     className="sidebar-btn cursor-pointer"
-    //     onClick={() => {
-    //       setSidebarIsOpen((prev) => !prev);
-    //     }}
-    //   >
-    //     <i className=" fs-two n11-color">
-    //       <PiX />
-    //     </i>
-    //   </div>
-    // </nav>
-    <div className="side-menu">
+    <div className={`side-menu ${sidebarOpen ? "active" : ""}`}>
       {/* <!-- sidebar-btn  --> */}
-      <div className="sidebar-btn close-btn cursor-pointer d-block d-lg-none">
+      <div
+        onClick={() => setSidebarOpen(!sidebarOpen)}
+        className={`sidebar-btn close-btn cursor-pointer d-block d-lg-none`}
+      >
         <i className="fs-two p1-color">
           <PiX />
         </i>
