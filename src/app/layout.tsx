@@ -26,21 +26,26 @@ export default function RootLayout({
 }>) {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   return (
-    <html lang="en">
-      <body suppressHydrationWarning={true} className={jost.className}>
+    <html lang="en" suppressHydrationWarning={true}>
+      <head>
+        <title>Portfolify-Personal Portfolio Template</title>
+      </head>
+      <body className={jost.className}>
         <Provider>
           <Bootstrap>
             <Suspense fallback={<Loading />}>
-              <div className="d-flex gap-6">
-                <Sidebar
-                  sidebarOpen={sidebarOpen}
-                  setSidebarOpen={setSidebarOpen}
-                />
-                <Topbar
-                  sidebarOpen={sidebarOpen}
-                  setSidebarOpen={setSidebarOpen}
-                />
-                {children}
+              <div className="d-flex ">
+                <div>
+                  <Sidebar
+                    sidebarOpen={sidebarOpen}
+                    setSidebarOpen={setSidebarOpen}
+                  />
+                  <Topbar
+                    sidebarOpen={sidebarOpen}
+                    setSidebarOpen={setSidebarOpen}
+                  />
+                </div>
+                <div className="main-content w-100">{children}</div>
               </div>
               <ColorSwitcher />
             </Suspense>

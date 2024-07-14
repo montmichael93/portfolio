@@ -15,7 +15,7 @@ import {
 import profile from "@/../public/images/profile.png";
 const Resume = () => {
   return (
-    <div className="main-content w-100">
+    <div>
       <section className="pt-120 pb-120 mt-10 mt-lg-0">
         <div className="pb-60 br-bottom-n3">
           <div data-aos="zoom-in" className="page-heading">

@@ -16,7 +16,7 @@ import LeaveReply from "@/components/Pages/BlogDetails/LeaveReply";
 
 const BlogDetails = () => {
   return (
-    <div className="main-content w-100">
+    <div>
       <section className="blog-details-section pt-120 pb-120 mt-10 mt-lg-0">
         <div className="container">
           <div className="mb-8 mb-md-15">

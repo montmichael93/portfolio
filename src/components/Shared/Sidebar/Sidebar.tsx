@@ -82,7 +82,7 @@ const Sidebar = ({
             <div className="">
               <div className="sidebar-profile">
                 <div className="position-relative">
-                  <div className="profile-img d-flex justify-content-center overflow-hidden">
+                  <div className="profile-img1 d-flex justify-content-center overflow-hidden mx-auto">
                     <Image src={profile} alt="user" className="" />
                   </div>
                   <span className="thumb">👋</span>
@@ -117,6 +117,7 @@ const Sidebar = ({
                   </Link>
                 </div>
               </div>
+
               <div className="line-divider my-4 my-md-8"></div>
 
               <div className="menu-list">

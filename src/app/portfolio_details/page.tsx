@@ -9,7 +9,7 @@ import PortfolioTes from "@/components/Pages/Portfolio/PortfolioTes";
 
 const PortfolioDetails = () => {
   return (
-    <div className="main-content w-100">
+    <div >
       <section className="pt-120 pb-120 mt-10 mt-lg-0">
         <div className="pb-60">
           <div data-aos="zoom-in" className="page-heading">

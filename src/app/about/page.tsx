@@ -9,8 +9,8 @@ import Footer from "@/components/Shared/Footer/Footer";
 
 const About = () => {
   return (
-    <div className="main-content w-100">
-      <section className="pt-120 pb-60 br-bottom-n3 overflow-hidden mt-10 mt-lg-0">
+    <div>
+      <section className="pt-120 pb-60 br-bottom-n3  mt-10 mt-lg-0">
         <div className="container">
           <Banner />
           <Counter />

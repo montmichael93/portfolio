@@ -8,7 +8,7 @@ import TypingEffect from "@/components/TypingEffect/TypingEffect";
 const Banner = () => {
   const texts = ["Developer", "Designer"];
   return (
-    <div className="d-flex flex-wrap gap-10 gap-md-15 align-items-center justify-content-between">
+    <div className="d-flex flex-wrap gap-9 gap-md-12 align-items-center justify-content-between">
       <div className="banner-content">
         <span className="n5-color fs-five">HI, I&apos;M A FREELANCER</span>
         <h2 className="typing-text display-one p1-color mt-2 mb-3">

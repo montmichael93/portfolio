@@ -23,7 +23,7 @@ const FeaturedCard = ({
         </div>
         <div className="d-flex justify-content-between gap-2 align-items-center pt-4 pt-md-8 px-3 px-md-6">
           <div>
-            <div className="d-flex gap-2 align-items-center">
+            <div className="d-flex gap-2 align-items-center tag-items">
               <span className="n5-color fs-eleven px-2 px-md-4 py-1 py-md-2 brn3 rounded-pill fw-medium">
                 {tag1}
               </span>

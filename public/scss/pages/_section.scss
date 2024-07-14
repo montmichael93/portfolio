@@ -92,6 +92,11 @@
     border: 1px solid rgba(var(--n1), 1);
     transition: all 0.5s ease-in-out;
   }
+  .tag-items {
+    span {
+      flex-shrink: 0;
+    }
+  }
   .project-title {
     transition: all 0.5s ease-in-out;
   }
