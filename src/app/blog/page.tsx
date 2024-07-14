@@ -1,16 +1,17 @@
-import Image from "next/image";
 import { blogs } from "../../../public/data/AllData";
 import BlogCard from "@/components/Pages/About/Blog/BlogCard";
 import { PiCaretLeftBold, PiCaretRightBold } from "react-icons/pi";
 import Footer from "@/components/Shared/Footer/Footer";
+import FadeDown from "@/components/motionEffect/FadeDown";
 
 const Blog = () => {
   return (
     <div>
       <section className="pt-120 pb-120 mt-10 mt-lg-0">
+      <FadeDown>
         <div className="pb-60 br-bottom-n3">
           <div className="container">
-            <div data-aos="zoom-in" className="page-heading">
+            <div  className="page-heading">
               <h3 className="page-title fs-onefw-semibold n5-color mb-2 mb-md-3 text-center">
                 A Blog About Software Development And Life
               </h3>
@@ -30,6 +31,7 @@ const Blog = () => {
             </div>
           </div>
         </div>
+        </FadeDown>
 
         {/* <!-- blog card  --> */}
         <div className="container">

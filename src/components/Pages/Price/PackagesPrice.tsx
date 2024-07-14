@@ -1,6 +1,7 @@
 import React from "react";
 import { PiArrowRight, PiCheckCircleFill } from "react-icons/pi";
 import { packagesPrice } from "../../../../public/data/AllData";
+import FadeDown from "@/components/motionEffect/FadeDown";
 
 const PackagesPrice = () => {
   return (
@@ -22,6 +23,7 @@ const PackagesPrice = () => {
           btn: string;
         }) => (
           <div key={id} className="col-sm-6 col-xl-4">
+            <FadeDown>
             <div className="pricing-card bgn2-color brn4 px-3 px-md-6 py-4 py-md-8 text-center overflow-hidden position-relative">
               {title === "Standard" && (
                 <div className="popular-price px-2 px-md-5 py-1 py-md-3 py-xl-2 py-xxl-3">
@@ -52,6 +54,7 @@ const PackagesPrice = () => {
                 {btn}
               </button>
             </div>
+            </FadeDown>
           </div>
         )
       )}

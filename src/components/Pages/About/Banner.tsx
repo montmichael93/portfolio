@@ -23,7 +23,8 @@ const Banner = () => {
           </Link>
           ,
           <Link href="/portfolio" className="p1-color">
-            project portfolio
+            {" "}
+            project portfolio{" "}
           </Link>
           and{" "}
           <Link href="/resume" className="p1-color">

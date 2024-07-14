@@ -5,12 +5,14 @@ import "swiper/css";
 import "swiper/css/pagination";
 import { Autoplay, Pagination } from "swiper/modules";
 import { testimonials } from "../../../../public/data/AllData";
+import FadeDown from "@/components/motionEffect/FadeDown";
 
 const Testimonials = () => {
   return (
     <section className="pt-120 pb-120 br-bottom-n3">
       <div className="container">
-        <div data-aos="zoom-in-up" className="section-heading">
+      <FadeDown>
+        <div  className="section-heading">
           <div className="d-flex align-items-center gap-2">
             <div className="title-line"></div>
             <h2 className="display-four n5-color fw-semibold">Testimonials</h2>
@@ -21,6 +23,7 @@ const Testimonials = () => {
             HTML5 Template.
           </p>
         </div>
+        </FadeDown>
         <div className="mt-8 mt-md-15 overflow-x-hidden">
           <Swiper
             spaceBetween={30}
