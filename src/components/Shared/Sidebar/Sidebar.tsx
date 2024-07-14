@@ -3,13 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import profile from "@/../public/images/profile.png";
 import logo from "@/../public/images/logo.png";
-import React, {
-  Dispatch,
-  SetStateAction,
-  useEffect,
-  useRef,
-  useState,
-} from "react";
 import { useTheme } from "next-themes";
 import { usePathname } from "next/navigation";
 import {
@@ -21,6 +14,8 @@ import {
   PiX,
 } from "react-icons/pi";
 import ThemeButton from "@/components/DarkMode/ThemeButton/ThemeButton";
+import { sidebarsData } from "../../../../public/data/Sidebar";
+import { useEffect, useState } from "react";
 
 const Sidebar = ({
   sidebarOpen,
@@ -29,14 +24,21 @@ const Sidebar = ({
   sidebarOpen: boolean;
   setSidebarOpen: React.Dispatch<React.SetStateAction<boolean>>;
 }) => {
-
-  const { theme } = useTheme();
-  // const [activeMenu, setActiveMenu] = useState(sidebars[0].name);
+  const { resolvedTheme } = useTheme();
   const path = usePathname();
+
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  if (!mounted) {
+    return null;
+  }
 
   return (
     <div className={`side-menu ${sidebarOpen ? "active" : ""}`}>
-      {/* <!-- sidebar-btn  --> */}
       <div
         onClick={() => setSidebarOpen(!sidebarOpen)}
         className={`sidebar-btn close-btn cursor-pointer d-block d-lg-none`}
@@ -64,7 +66,9 @@ const Sidebar = ({
                 </div>
               </Link>
               <div className="d-flex flex-column align-items-center gap-1">
-                <span className="toggle_name fs-eleven n5-color">DarkMode</span>
+                <span className="toggle_name fs-eleven n5-color">
+                  {resolvedTheme === "light" ? "DarkMood" : "LightMood"}
+                </span>
                 <div className="side-icon bg1-color">
                   <ThemeButton />
                 </div>
@@ -117,61 +121,46 @@ const Sidebar = ({
 
               <div className="menu-list">
                 <ul className="d-flex flex-column gap-3">
-                  <li className="rounded-3 bg1-color">
-                    <Link
-                      href="/"
-                      className="d-flex align-items-center gap-2 n11-color fs-eight px-3 py-2"
-                    >
-                      <i className="ph ph-user fs-six"></i> About Me
-                    </Link>
-                  </li>
+                  {sidebarsData.map(
+                    ({
+                      id,
+                      name,
+                      url,
+                      icon,
+                      numbers,
+                    }: {
+                      id: number;
+                      name: string;
+                      url: string;
+                      icon: React.JSX.Element;
+                      numbers?: number | undefined;
+                    }) => (
+                      <li key={id} className="rounded-3">
+                        <Link
+                          href={url}
+                          onClick={() => setSidebarOpen(!sidebarOpen)}
+                          className={`d-flex justify-content-between align-items-center rounded-3 ${
+                            path == url && "active"
+                          }`}
+                        >
+                          <div
+                            className={`menu-item d-flex align-items-center gap-2 n5-color fs-eight px-3 py-2 `}
+                          >
+                            {icon}
+                            {name}
+                          </div>
 
-                  <li className="rounded-3">
-                    <Link
-                      href="/portfolio"
-                      className="d-flex justify-content-between align-items-center"
-                    >
-                      <div className="d-flex align-items-center gap-2 n5-color fs-eight px-3 py-2">
-                        <i className="ph ph-code-block fs-six"></i> Portfolio
-                      </div>
-                      <span className="n5-color bg2-color fs-ten px-1 pt-1 rounded-2 me-3">
-                        16
-                      </span>
-                    </Link>
-                  </li>
-                  <li className="rounded-3">
-                    <Link
-                      href="/price"
-                      className="d-flex align-items-center gap-2 n5-color fs-eight px-3 py-2"
-                    >
-                      <i className="ph ph-briefcase fs-six"></i>Services &
-                      Pricing
-                    </Link>
-                  </li>
-                  <li className="rounded-3">
-                    <Link
-                      href="/resume"
-                      className="d-flex align-items-center gap-2 n5-color fs-eight px-3 py-2"
-                    >
-                      <i className="ph ph-notebook fs-six"></i> Resume
-                    </Link>
-                  </li>
-                  <li className="rounded-3">
-                    <Link
-                      href="/blog"
-                      className="d-flex align-items-center gap-2 n5-color fs-eight px-3 py-2"
-                    >
-                      <i className="ph ph-newspaper-clipping fs-six"></i>Blog
-                    </Link>
-                  </li>
-                  <li className="rounded-3">
-                    <Link
-                      href="/contact"
-                      className="d-flex align-items-center gap-2 n5-color fs-eight px-3 py-2"
-                    >
-                      <i className="ph ph-envelope fs-six"></i>Contact
-                    </Link>
-                  </li>
+                          {numbers ? (
+                            <span className="n5-color bg2-color fs-ten px-1 pt-1 rounded-2 me-3">
+                              {numbers}
+                            </span>
+                          ) : (
+                            ""
+                          )}
+                        </Link>
+                      </li>
+                    )
+                  )}
                 </ul>
               </div>
             </div>

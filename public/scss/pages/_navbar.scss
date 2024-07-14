@@ -73,6 +73,13 @@
           div {
             transition: all 0.3s ease-in-out;
           }
+          a.active {
+            color: rgba(var(--n11), 1);
+            background-color: rgba(var(--p1));
+            .menu-item {
+              color: rgba(var(--n11), 1);
+            }
+          }
           &:hover {
             background-color: rgba(var(--p1), 1);
             a {
