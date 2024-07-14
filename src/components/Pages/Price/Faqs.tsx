@@ -31,7 +31,7 @@ const Faqs = () => {
             clients may have.
           </p>
         </div>
-        <div className="row mt-8 mt-md-15 justify-content-between gap-3">
+        <div className="row mt-8 mt-md-15 justify-content-between align-items-center gap-3">
           <div className="col-12 col-md-6">
             {frequentlyData.map(
               ({

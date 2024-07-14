@@ -17,30 +17,30 @@ const Banner = () => {
         <p className="fs-seven n5-color">
           I&apos;m a software engineer specializing in scalable web apps.
           Explore my
-          <Link href="blog.html" className="p1-color">
+          <Link href="/blog" className="p1-color">
             {" "}
             blog
           </Link>
           ,
-          <Link href="portfolio.html" className="p1-color">
+          <Link href="/portfolio" className="p1-color">
             project portfolio
           </Link>
           and{" "}
-          <Link href="resume.html" className="p1-color">
+          <Link href="/resume" className="p1-color">
             online resume
           </Link>
           .
         </p>
         <div className="d-flex flex-wrap align-itmes-center gap-3 gap-md-6 mt-4 mt-md-8">
           <Link
-            href="portfolio.html"
+            href="/portfolio"
             className="p-btn n11-color bg1-color fw-medium n1-color px-3 px-md-6 py-2 py-md-4 rounded-pill d-flex align-items-center gap-2"
           >
             <PiArrowRight />
             View Portfolio
           </Link>
           <Link
-            href="resume.html"
+            href="/resume"
             className="p-btn n11-color bgn51-color fw-medium n1-color px-3 px-md-6 py-2 py-md-4 rounded-pill d-flex align-items-center gap-2"
           >
             <Image src={resumeIcon} alt="icon" />

@@ -1,6 +1,7 @@
 import { PiArrowRight } from "react-icons/pi";
 import { featureds } from "../../../../../public/data/AllData";
 import FeaturedCard from "./FeaturedCard";
+import Link from "next/link";
 
 const Featured = () => {
   return (
@@ -20,14 +21,14 @@ const Featured = () => {
               detail, allowing you to focus on what you do best.
             </p>
           </div>
-          <a
+          <Link
             data-aos="zoom-in-right"
-            href="portfolio.html"
+            href="/portfolio"
             className="p-btn bg1-color fw-medium n11-color px-3 px-md-6 py-2 py-md-4 rounded-pill d-flex align-items-center gap-2 h-100 text-nowrap"
           >
             <PiArrowRight />
             View Portfolio
-          </a>
+          </Link>
         </div>
 
         <div className="row g-5 g-md-10 mt-8 mt-md-15">

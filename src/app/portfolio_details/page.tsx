@@ -6,6 +6,7 @@ import project3 from "@/../public/images/project3.png";
 import Footer from "@/components/Shared/Footer/Footer";
 import Image from "next/image";
 import PortfolioTes from "@/components/Pages/Portfolio/PortfolioTes";
+import Link from "next/link";
 
 const PortfolioDetails = () => {
   return (
@@ -21,13 +22,13 @@ const PortfolioDetails = () => {
               answer a potential client&apos;s need/problem so it&apos;s more
               likely to land your next project or job.
             </p>
-            <a
+            <Link
               href="/contact"
               className="w-max p-btn bg1-color fw-medium n11-color px-3 px-md-6 py-2 py-md-4 rounded-pill d-flex align-items-center gap-2 mx-auto"
             >
               <PiPaperPlaneTilt />
               <i className="ph ph-paper-plane-tilt"></i>Hire Me
-            </a>
+            </Link>
           </div>
         </div>
         <div className="container mt-8 mt-md-15">
@@ -58,12 +59,12 @@ const PortfolioDetails = () => {
                   <span className="n4-color fs-eight fw-medium d-block">
                     Website
                   </span>
-                  <a
+                  <Link
                     href="#"
                     className="n5-color fs-six fw-medium d-flex align-items-center gap-2"
                   >
                     Live preview <i className="ph-bold ph-arrow-right"></i>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

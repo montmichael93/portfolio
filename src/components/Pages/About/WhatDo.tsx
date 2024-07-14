@@ -15,6 +15,7 @@ import html from "@/../public/images/html.png";
 import css from "@/../public/images/css.png";
 import sass from "@/../public/images/sass.png";
 import less from "@/../public/images/less.png";
+import Link from "next/link";
 
 const WhatDo = () => {
   return (
@@ -31,13 +32,13 @@ const WhatDo = () => {
               all over the world. Below is a quick overview of my main technical
               skill sets and technologies I use. Want to find out more about my
               experience? Check out my 
-              <a href="resume.html" className="p1-color">
+              <Link href="/resume" className="p1-color">
                 online resume
-              </a>{" "}
+              </Link>{" "}
               and
-              <a href="portfolio.html" className="p1-color">
+              <Link href="/portfolio" className="p1-color">
                 project portfolio
-              </a>
+              </Link>
               .
             </p>
           </div>

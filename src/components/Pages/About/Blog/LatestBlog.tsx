@@ -20,13 +20,13 @@ const LatestBlog = () => {
               More than 1500+ agencies using Portfolify
             </p>
           </div>
-          <a
+          <Link
             data-aos="zoom-in-right"
-            href="blog.html"
+            href="/blog"
             className="p-btn bg1-color fw-medium n11-color px-3 px-md-6 py-2 py-md-4 rounded-pill text-nowrap"
           >
             See All Articles
-          </a>
+          </Link>
         </div>
         <div className="row g-5 g-md-10 mt-8 mt-md-15">
           {blogs.slice(0, 3).map(({ id, img, date, tag, title }) => (
