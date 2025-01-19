@@ -14,6 +14,7 @@ import sass from "@/../public/images/sass.png";
 import less from "@/../public/images/less.png";
 import aws from "@/../public/images/aws.png";
 import docker from "@/../public/images/docker.webp";
+import tailwind from "@/../public/images/tailwind.png";
 
 // features img
 import project1 from "@/../public/images/project1.png";
@@ -85,9 +86,9 @@ export const services = [
   },
   {
     id: 8,
-    title: "Sass & LESS",
+    title: "Tailwind",
     des: "List skills and technologies here. Customize as needed. Built on HTML5, Sass, and Bootstrap 5.",
-    imgs: [sass, less],
+    imgs: [tailwind],
   },
 ];
 
