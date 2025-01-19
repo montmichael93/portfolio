@@ -12,6 +12,8 @@ import html from "@/../public/images/html.png";
 import css from "@/../public/images/css.png";
 import sass from "@/../public/images/sass.png";
 import less from "@/../public/images/less.png";
+import aws from "@/../public/images/aws.png";
+import docker from "@/../public/images/docker.webp";
 
 // features img
 import project1 from "@/../public/images/project1.png";
@@ -59,15 +61,15 @@ export const services = [
   },
   {
     id: 4,
-    title: "Python & Django",
+    title: "Amazon Web Service",
     des: "List skills and technologies here. Customize as needed. Built on HTML5, Sass, and Bootstrap 5.",
-    imgs: [python],
+    imgs: [aws],
   },
   {
     id: 5,
-    title: "PHP",
+    title: "docker",
     des: "List skills and technologies here. Customize as needed. Built on HTML5, Sass, and Bootstrap 5.",
-    imgs: [php],
+    imgs: [docker],
   },
   {
     id: 6,
