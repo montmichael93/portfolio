@@ -34,6 +34,10 @@ import blog7 from "@/../public/images/blog7.png";
 import blog8 from "@/../public/images/blog8.png";
 import blog9 from "@/../public/images/blog9.png";
 
+import product1 from "@/../public/images/react-dashboard.png";
+import product2 from "@/../public/images/ui-kit.png";
+import product3 from "@/../public/images/angular-dashboard.png";
+
 export const services = [
   {
     id: 1,
@@ -43,9 +47,9 @@ export const services = [
   },
   {
     id: 2,
-    title: "Angular, React & Vue",
+    title: "React",
     des: "List skills and technologies here. Customize as needed. Built on HTML5, Sass, and Bootstrap 5.",
-    imgs: [angular, react, vue],
+    imgs: [react],
   },
   {
     id: 3,
@@ -67,9 +71,9 @@ export const services = [
   },
   {
     id: 6,
-    title: "npm, Gulp & Grunt",
+    title: "npm",
     des: "List skills and technologies here. Customize as needed. Built on HTML5, Sass, and Bootstrap 5.",
-    imgs: [npm, gulp, grunt],
+    imgs: [npm],
   },
   {
     id: 7,
@@ -155,34 +159,35 @@ export const featureds = [
 export const testimonials = [
   {
     id: 1,
-
+    country: "Australia",
     name: "Esther Howard",
     des: "I highly recommend Portfolify to anyone looking for a high-quality and responsive Bootstrap theme.",
     img: buyer1,
   },
   {
     id: 2,
-
+    country: "Canada",
     name: "Robert Fox",
     des: "Portfolify is the perfect theme for businesses that want to create a stylish and functional website.",
     img: buyer2,
   },
   {
     id: 3,
-
+    country: "China",
     name: "Cameron Williamson",
     des: "Portfolify helped us create a stunning and clear website that reflects our brand perfectly.",
     img: buyer3,
   },
   {
     id: 4,
-
+    country: "USA",
     name: "Jenny Wilson",
     des: "Best Bootstrap template ever: easy to customize, feature-rich, responsive and meets all our needs.",
     img: buyer4,
   },
   {
     id: 5,
+    country: "India",
     img: buyer2,
     name: "Robert Fox",
     des: "Portfolify is the perfect theme for businesses that want to create a stylish and functional website.",
@@ -354,5 +359,65 @@ export const commentsData = [
     name: "Eleanor Pena",
     date: "October 25, 2020",
     des: "Lorem ipsum dolor sit amet, consectetur adipiscing elit lobortis arcu enim urna adipiscing praesent velit viverra sit semper lorem eu cursus vel hendrerit elementum morbi curabitur etiam nibh justo, lorem aliquet donec sed sit mi dignissim at ante massa mattis.",
+  },
+];
+
+export const productsData = [
+  {
+    id: 1,
+    img: product1,
+    title: "React Dashboard Template",
+    des: "Develop modern, beautiful, and responsive applications in half the time.",
+    price: "120",
+  },
+  {
+    id: 2,
+    img: product2,
+    title: "React UI Kit",
+    des: "A professional React Kit that comes with plenty of Material UI components.",
+    price: "110",
+  },
+  {
+    id: 3,
+    img: product3,
+    title: "Angular Dashboard Template",
+    des: "CoreUI PRO Angular Admin Template makes app development lightning fast.",
+    price: "100",
+  },
+  {
+    id: 4,
+    img: blog4,
+    title: "Unleashing Creativity in Code",
+    des: "Develop modern, beautiful, and responsive applications in half the time.",
+    price: "120",
+  },
+  {
+    id: 5,
+    img: blog3,
+    title: "Mastering Modern Development",
+    des: "Learn the latest techniques and tools for mastering modern development.",
+    price: "100",
+  },
+  {
+    id: 6,
+    img: blog5,
+    title: "Beyond the Basics",
+    des: "Learn how to prepare yourself for the next generation of software development.",
+    price: "120",
+  },
+];
+
+export const modalProductsData = [
+  {
+    id: 1,
+    img: blog4,
+    title: "Unleashing Creativity in Code",
+    price: "120",
+  },
+  {
+    id: 2,
+    img: blog5,
+    title: "Mastering Modern Development",
+    price: "100",
   },
 ];

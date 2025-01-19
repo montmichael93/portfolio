@@ -11,18 +11,20 @@ const Testimonials = () => {
   return (
     <section className="pt-120 pb-120 br-bottom-n3">
       <div className="container">
-      <FadeDown>
-        <div  className="section-heading">
-          <div className="d-flex align-items-center gap-2">
-            <div className="title-line"></div>
-            <h2 className="display-four n5-color fw-semibold">Testimonials</h2>
+        <FadeDown>
+          <div className="section-heading">
+            <div className="d-flex align-items-center gap-2">
+              <div className="title-line"></div>
+              <h2 className="display-four n5-color fw-semibold">
+                Testimonials
+              </h2>
+            </div>
+            <p className="fs-seven n4-color mt-2 mt-md-4">
+              See how I&apos;ve helped our clients succeed. IT’s a highly
+              Customizable,creative, modern, visually stunning and Bootstrap5
+              HTML5 Template.
+            </p>
           </div>
-          <p className="fs-seven n4-color mt-2 mt-md-4">
-            See how I&apos;ve helped our clients succeed. IT’s a highly
-            Customizable,creative, modern, visually stunning and Bootstrap5
-            HTML5 Template.
-          </p>
-        </div>
         </FadeDown>
         <div className="mt-8 mt-md-15 overflow-x-hidden">
           <Swiper
@@ -61,11 +63,13 @@ const Testimonials = () => {
                 img,
                 name,
                 des,
+                country
               }: {
                 id: number;
                 img: StaticImageData;
                 name: string;
                 des: string;
+                country: string;
               }) => (
                 <SwiperSlide key={id}>
                   <div className="px-3 px-md-6 py-5 py-md-10 bgn2-color box-shadow1 br-left-p1">
@@ -84,7 +88,14 @@ const Testimonials = () => {
                         className="testimonial_img"
                       />
 
-                      <span className="fs-eight d-block n5-color">{name}</span>
+                      <div>
+                        <span className="fs-eight d-block n5-color">
+                          {name}
+                        </span>
+                        <span className="fs-nine d-block n5-color">
+                          {country}
+                        </span>
+                      </div>
                     </div>
                   </div>
                 </SwiperSlide>

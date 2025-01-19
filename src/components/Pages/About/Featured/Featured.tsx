@@ -9,7 +9,7 @@ const Featured = () => {
     <section className="pt-120 pb-120 br-bottom-n3">
       <div className="container">
         <FadeDown>
-          <div className="d-flex gap-3 flex-wrap flex-xxl-nowrap justify-content-between align-items-end">
+          <div className="d-flex gap-3 flex-wrap flex-xxl-nowrap justify-content-between align-items-end mb-8 mb-md-15">
             <div className="section-heading">
               <div className="d-flex align-items-center gap-2">
                 <div className="title-line"></div>
@@ -33,7 +33,7 @@ const Featured = () => {
           </div>
         </FadeDown>
 
-        <div className="row g-5 g-md-10 mt-8 mt-md-15">
+        <div className="row g-6 g-md-10 ">
           {featureds.slice(0, 4).map(({ id, img, tag1, tag2, tag3, title }) => (
             <FeaturedCard
               key={id}

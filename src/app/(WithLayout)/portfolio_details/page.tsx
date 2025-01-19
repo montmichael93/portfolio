@@ -1,18 +1,17 @@
 import NextProject from "@/components/Pages/About/NextProject";
-import { PiPaperPlaneTilt } from "react-icons/pi";
+import { PiArrowRight, PiPaperPlaneTilt } from "react-icons/pi";
 import project1 from "@/../public/images/project1.png";
 import project2 from "@/../public/images/project2.png";
 import project3 from "@/../public/images/project3.png";
 import Footer from "@/components/Shared/Footer/Footer";
 import Image from "next/image";
-import PortfolioTes from "@/components/Pages/Portfolio/PortfolioTes";
 import Link from "next/link";
 import FadeDown from "@/components/motionEffect/FadeDown";
 
 const PortfolioDetails = () => {
   return (
-    <div>
-      <section className="pt-120 pb-120 mt-10 mt-lg-0">
+    <div className="overflow-visible">
+      <section className="pt-120 pb-120 mt-10 mt-lg-0 overflow-visible">
         <div className="pb-60">
           <FadeDown>
             <div className="page-heading">
@@ -28,50 +27,53 @@ const PortfolioDetails = () => {
                 href="/contact"
                 className="w-max p-btn bg1-color fw-medium n11-color px-3 px-md-6 py-2 py-md-4 rounded-pill d-flex align-items-center gap-2 mx-auto"
               >
-                <PiPaperPlaneTilt />
-                <i className="ph ph-paper-plane-tilt"></i>Hire Me
+                <PiPaperPlaneTilt /> Hire Me
               </Link>
             </div>
           </FadeDown>
         </div>
-        <div className="container mt-8 mt-md-15">
+        <div className="container my-8 my-md-15">
           <div className="row g-6">
             <div className="col-12 col-xl-3">
-              <FadeDown>
-                <div className="d-flex flex-column gap-5 position-sticky top-5">
-                  <div>
-                    <span className="n4-color fs-eight fw-medium d-block">
-                      Client:
-                    </span>
-                    <span className="n5-color fs-six fw-medium">Dev X</span>
+              <div className="position-sticky top-0">
+                <FadeDown>
+                  <div className="d-flex flex-column gap-5  brn4 p-3 p-md-5 rounded">
+                    <div>
+                      <span className="n4-color fs-eight fw-medium d-block">
+                        Client:
+                      </span>
+                      <span className="n5-color fs-six fw-medium">Dev X</span>
+                    </div>
+                    <div>
+                      <span className="n4-color fs-eight fw-medium d-block">
+                        Services
+                      </span>
+                      <span className="n5-color fs-six fw-medium">
+                        Web Development
+                      </span>
+                    </div>
+                    <div>
+                      <span className="n4-color fs-eight fw-medium d-block">
+                        Technologies
+                      </span>
+                      <span className="n5-color fs-six fw-medium">
+                        React JS
+                      </span>
+                    </div>
+                    <div>
+                      <span className="n4-color fs-eight fw-medium d-block">
+                        Website
+                      </span>
+                      <Link
+                        href="#"
+                        className="n5-color fs-six fw-medium d-flex align-items-center gap-2"
+                      >
+                        Live preview <PiArrowRight />
+                      </Link>
+                    </div>
                   </div>
-                  <div>
-                    <span className="n4-color fs-eight fw-medium d-block">
-                      Services
-                    </span>
-                    <span className="n5-color fs-six fw-medium">
-                      Web Development
-                    </span>
-                  </div>
-                  <div>
-                    <span className="n4-color fs-eight fw-medium d-block">
-                      Technologies
-                    </span>
-                    <span className="n5-color fs-six fw-medium">React JS</span>
-                  </div>
-                  <div>
-                    <span className="n4-color fs-eight fw-medium d-block">
-                      Website
-                    </span>
-                    <Link
-                      href="#"
-                      className="n5-color fs-six fw-medium d-flex align-items-center gap-2"
-                    >
-                      Live preview <i className="ph-bold ph-arrow-right"></i>
-                    </Link>
-                  </div>
-                </div>
-              </FadeDown>
+                </FadeDown>
+              </div>
             </div>
 
             <div className="col-12 col-xl-9">
@@ -260,10 +262,7 @@ const PortfolioDetails = () => {
                       </div>
                     </div>
                   </div>
-                  <p
-                    data-aos="fade-up"
-                    className="text-seven n4-color mb-8 mb-md-15"
-                  >
+                  <p data-aos="fade-up" className="text-seven n4-color">
                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
                     Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
                     natoque penatibus et magnis dis parturient montes, nascetur
@@ -274,18 +273,6 @@ const PortfolioDetails = () => {
                     venenatis vitae, justo. Nullam dictum felis eu pede mollis
                     pretium. Integer tincidunt. Cras dapibus.
                   </p>
-                  <div className="mb-8 mb-md-15">
-                    <div
-                      data-aos="zoom-in"
-                      className="d-flex align-items-center gap-2"
-                    >
-                      <div className="title-line"></div>
-                      <h2 className="display-four n5-color fw-semibold">
-                        Client Testimonial
-                      </h2>
-                    </div>
-                    <PortfolioTes />
-                  </div>
                 </FadeDown>
               </div>
             </div>

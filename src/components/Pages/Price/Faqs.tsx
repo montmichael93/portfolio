@@ -72,7 +72,7 @@ const Faqs = () => {
                           </i>
                         </div>
                         <h3
-                          className={`fs-eight fw-medium ${
+                          className={`fs-seven fw-medium ${
                             toggle === id ? "p1-color" : "n4-color"
                           }`}
                         >
@@ -93,7 +93,7 @@ const Faqs = () => {
                       easing="ease-in-out"
                       height={toggle === id ? "auto" : 0}
                     >
-                      <p className="n5-color text-base font-medium leading-[150%] pt-3 pt-md-5">
+                      <p className="n5-color  font-medium leading-[150%] pt-3 pt-md-5 fs-seven">
                         {answers}
                       </p>
                     </AnimateHeight>

@@ -4,6 +4,7 @@ import buyer4 from "@/../public/images/buyer4.png";
 import { useState } from "react";
 import { commentsData } from "../../../../public/data/AllData";
 import AnimateHeight from "react-animate-height";
+import { PiPaperPlaneTilt } from "react-icons/pi";
 
 const Comments = () => {
   const [toggle, setToggle] = useState<null | number>(0);
@@ -20,7 +21,6 @@ const Comments = () => {
     <section className="mt-8 mt-md-15 comment-section">
       <h3 className="n5-color fs-three fw-semibold mb-4 mb-md-8">3 Comments</h3>
 
-      {/* try animate height  */}
       <div className="py-120">
         {commentsData.map(
           ({
@@ -62,38 +62,19 @@ const Comments = () => {
                 </div>
               </div>
               <AnimateHeight duration={500} height={toggle === id ? "auto" : 0}>
-                <div className="ms-10 ms-md-20">
-                  <div className="w-100 d-flex flex-wrap flex-md-nowrap gap-4 gap-md-8 px-4 px-md-8 py-3 py-md-6 rounded-3 w-100 brn4 mt-3 mt-md-6 ps-10">
-                    <div className="flex-shrink-0">
-                      <Image
-                        src={buyer4}
-                        alt="..."
-                        className="cmnt-img flex-shrink-0"
+                <div className="reply-answer mt-3 mt-md-6 ms-5 ms-md-10">
+                  <form>
+                    <div className="d-flex align-items-center gap-3 gap-md-5">
+                      <input
+                        type="text"
+                        placeholder="Enter Your comments"
+                        className="px-3 px-md-6 py-2 py-md-4 w-100 brn4 rounded-3 n5-color"
                       />
+                      <button className="fs-six n11-color bg1-color px-3 px-md-5 py-2 rounded-pill">
+                        <PiPaperPlaneTilt />
+                      </button>
                     </div>
-                    <div className="w-100">
-                      <div className="d-flex gap-3 justify-content-between align-items-center w-100">
-                        <div className="w-100">
-                          <h6 className="n5-color fs-six fw-medium">
-                            Guy Hawkins
-                          </h6>
-                          <span className="n5-color fs-nine fw-medium">
-                            October 25, 2019
-                          </span>
-                        </div>
-                        <button className="px-3 px-md-5 py-2 p1-color br1 rounded-pill">
-                          Reply
-                        </button>
-                      </div>
-                      <p className="n4-color fs-eight mt-2 mt-md-4">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                        lobortis arcu enim urna adipiscing praesent velit
-                        viverra sit semper lorem eu cursus vel hendrerit
-                        elementum morbi curabitur etiam nibh justo, lorem
-                        aliquet donec sed sit mi dignissim at ante massa mattis.
-                      </p>
-                    </div>
-                  </div>
+                  </form>
                 </div>
               </AnimateHeight>
             </div>

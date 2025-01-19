@@ -24,8 +24,8 @@
 
     .cart-counter {
       position: absolute;
-      top: 13px;
-      right: -7px;
+      top: 0px;
+      right: -8px;
       width: 16px;
       height: 16px;
       border-radius: 50%;
@@ -101,6 +101,23 @@
   overflow-x: hidden;
 }
 
+// top header
+.cart-counter-header {
+  position: absolute;
+  top: 0px;
+  right: -8px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: rgba(var(--y1));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  span {
+    font-size: 8px;
+  }
+}
+
 @media (max-width: 991px) {
   .side-menu {
     visibility: hidden;
@@ -159,3 +176,7 @@
 .left-menu.toggled {
   margin-left: -300px;
 }
+
+// .active-color {
+//   background-color: red;
+// }

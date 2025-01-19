@@ -3,6 +3,9 @@ import GetInTouch from "@/components/Pages/Contact/GetInTouch";
 import Footer from "@/components/Shared/Footer/Footer";
 import Link from "next/link";
 import {
+  PiCompass,
+  PiDeviceMobileCamera,
+  PiEnvelopeOpen,
   PiFacebookLogo,
   PiInstagramLogo,
   PiLinkedinLogo,
@@ -25,6 +28,7 @@ const Contact = () => {
                 Interested in hiring me for your project or just want to say hi?
                 You can fill in the contact form below or send me an email to
                 <Link href="#" className="p1-color">
+                  {" "}
                   evans@yourwebsite.com
                 </Link>{" "}
                 .Want to get connected? Follow me on the social channels below.
@@ -85,9 +89,11 @@ const Contact = () => {
           <FadeDown>
             <div className="d-flex flex-wrap gap-3 gap-md-6 align-items-center justify-content-between mt-8 mt-md-15">
               <div className="d-flex gap-3 align-items-center p-3 p-md-5 br1-left">
-                <i className="ph ph-device-mobile-camera p1-color fs-one"></i>
+                <i className="p1-color fs-one">
+                  <PiDeviceMobileCamera />
+                </i>
                 <div>
-                  <span className="n5-color fs-five fw-semibold d-block mb-2">
+                  <span className="n5-color fs-five fw-semibold d-block mb-1 mb-sm-2">
                     Phone
                   </span>
                   <Link href="tel:+6494461709" className="n4-color fs-nine">
@@ -96,9 +102,11 @@ const Contact = () => {
                 </div>
               </div>
               <div className="d-flex gap-3 align-items-center p-3 p-md-5 br1-left">
-                <i className="ph ph-compass p1-color fs-one"></i>
+                <i className="p1-color fs-one">
+                  <PiCompass />
+                </i>
                 <div>
-                  <span className="n5-color fs-five fw-semibold d-block mb-2">
+                  <span className="n5-color fs-five fw-semibold d-block mb-1 mb-sm-2">
                     Location
                   </span>
                   <span className="n4-color fs-nine">
@@ -107,9 +115,11 @@ const Contact = () => {
                 </div>
               </div>
               <div className="d-flex gap-3 align-items-center p-3 p-md-5 br1-left">
-                <i className="ph ph-envelope-open p1-color fs-one"></i>
+                <i className="ph ph-envelope-open p1-color fs-one">
+                  <PiEnvelopeOpen />
+                </i>
                 <div>
-                  <span className="n5-color fs-five fw-semibold d-block mb-2">
+                  <span className="n5-color fs-five fw-semibold d-block mb-1 mb-sm-2">
                     Email
                   </span>
                   <Link

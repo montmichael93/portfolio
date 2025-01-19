@@ -14,6 +14,7 @@ import {
 } from "react-icons/pi";
 import profile from "@/../public/images/profile.png";
 import FadeDown from "@/components/motionEffect/FadeDown";
+import Footer from "@/components/Shared/Footer/Footer";
 const Resume = () => {
   return (
     <div>
@@ -38,7 +39,7 @@ const Resume = () => {
 
         <div className="container mt-8 mt-md-15">
           <FadeDown>
-            <div className="bgn2-color p-8 p-md-15 rounded-5 brn4">
+            <div className="bgn2-color p-4 p-sm-8 p-md-15 rounded-5 brn4">
               <div className="d-flex flex-wrap justify-content-between align-items-center gap-3 br-bottom-n3 pb-3 pb-md-6">
                 <div>
                   <h2 className="display-three p1-color fw-semibold">
@@ -90,7 +91,7 @@ const Resume = () => {
                     height="159"
                   />
                 </div>
-                <p className="n4-color fs-seven">
+                <p className="n42-color fs-seven">
                   Summarise your career here. You can make a PDF version of your
                   resume using our free Sketch template here. Donec quam felis,
                   ultricies nec, pellentesque eu. Lorem ipsum dolor sit amet,
@@ -114,7 +115,7 @@ const Resume = () => {
                     </h2>
                   </div>
 
-                  <div className="mb-3 mb-md-6">
+                  <div className="mb-4 mb-md-6">
                     <div className="d-flex flex-wrap gap-2 gap-sm-3 justify-content-between align-items-center">
                       <span className="n5-color fs-six fw-medium">
                         Senior Software Engineer
@@ -123,7 +124,7 @@ const Resume = () => {
                         Google | 2023 - Present
                       </span>
                     </div>
-                    <p className="n4-color fs-seven my-3 my-md-5">
+                    <p className="n42-color fs-seven my-2 my-md-5">
                       Role description goes here ipsum dolor sit amet,
                       consectetuer adipiscing elit. Aenean commodo ligula eget
                       dolor. Aenean massa. Cum sociis natoque penatibus et
@@ -135,20 +136,20 @@ const Resume = () => {
                       natoque penatibus et magnis dis parturient montes,
                       nascetur ridiculus mus. Donec quam felis.
                     </p>
-                    <ul className="d-flex flex-column gap-3 ms-10">
-                      <li className="n4-color fs-seven">
+                    <ul className="d-flex flex-column gap-3 ms-6 ms-lg-10">
+                      <li className="n42-color fs-seven">
                         Lorem ipsum dolor sit amet, consectetuer.
                       </li>
-                      <li className="n4-color fs-seven">
+                      <li className="n42-color fs-seven">
                         Aenean commodo ligula eget dolor.
                       </li>
-                      <li className="n4-color fs-seven">
+                      <li className="n42-color fs-seven">
                         Etiam ultricies nisi vel augue.
                       </li>
                     </ul>
                   </div>
-                  <div className="mb-3 mb-md-6">
-                    <div className="d-flex flex-wrap gap-2 gap-sm-3 justify-content-between align-items-center">
+                  <div className="mb-4 mb-md-6">
+                    <div className="d-flex flex-wrap gap-1 gap-sm-3 justify-content-between align-items-center">
                       <span className="n5-color fs-six fw-medium">
                         Lead Software Developer
                       </span>
@@ -156,7 +157,7 @@ const Resume = () => {
                         Apple | 2016 - 2019
                       </span>
                     </div>
-                    <p className="n4-color fs-seven my-3 my-md-5">
+                    <p className="n42-color fs-seven my-2 my-md-5">
                       Role description goes here ipsum dolor sit amet,
                       consectetuer adipiscing elit. Aenean commodo ligula eget
                       dolor. Aenean massa. Cum sociis natoque penatibus et
@@ -168,20 +169,20 @@ const Resume = () => {
                       natoque penatibus et magnis dis parturient montes,
                       nascetur ridiculus mus. Donec quam felis.
                     </p>
-                    <ul className="d-flex flex-column gap-3 ms-10">
-                      <li className="n4-color fs-seven">
+                    <ul className="d-flex flex-column gap-3 ms-6 ms-lg-10">
+                      <li className="n42-color fs-seven">
                         Lorem ipsum dolor sit amet, consectetuer.
                       </li>
-                      <li className="n4-color fs-seven">
+                      <li className="n42-color fs-seven">
                         Aenean commodo ligula eget dolor.
                       </li>
-                      <li className="n4-color fs-seven">
+                      <li className="n42-color fs-seven">
                         Etiam ultricies nisi vel augue.
                       </li>
                     </ul>
                   </div>
-                  <div className="mb-3 mb-md-6">
-                    <div className="d-flex flex-wrap gap-2 gap-sm-3 justify-content-between align-items-center">
+                  <div className="mb-4 mb-md-6">
+                    <div className="d-flex flex-wrap gap-1 gap-sm-3 justify-content-between align-items-center">
                       <span className="n5-color fs-six fw-medium">
                         Senior Software Developer
                       </span>
@@ -189,7 +190,7 @@ const Resume = () => {
                         Dropbox | 2014 - 2016
                       </span>
                     </div>
-                    <p className="n4-color fs-seven my-3 my-md-5">
+                    <p className="n42-color fs-seven my-2 my-md-5">
                       Role description goes here ipsum dolor sit amet,
                       consectetuer adipiscing elit. Aenean commodo ligula eget
                       dolor. Aenean massa. Cum sociis natoque penatibus et
@@ -201,25 +202,25 @@ const Resume = () => {
                       natoque penatibus et magnis dis parturient montes,
                       nascetur ridiculus mus. Donec quam felis.
                     </p>
-                    <ul className="d-flex flex-column gap-3 ms-10">
-                      <li className="n4-color fs-seven">
+                    <ul className="d-flex flex-column gap-3 ms-6 ms-lg-10">
+                      <li className="n42-color fs-seven">
                         Lorem ipsum dolor sit amet, consectetuer.
                       </li>
-                      <li className="n4-color fs-seven">
+                      <li className="n42-color fs-seven">
                         Aenean commodo ligula eget dolor.
                       </li>
                     </ul>
                   </div>
-                  <div className="mb-3 mb-md-6">
-                    <div className="d-flex flex-wrap gap-2 gap-sm-3 justify-content-between align-items-center mb-2 mb-md-4">
+                  <div className="mb-4 mb-md-6">
+                    <div className="d-flex flex-wrap gap-1 gap-sm-3 justify-content-between align-items-center mb-2 mb-md-4">
                       <span className="n5-color fs-six fw-medium">
                         Senior Developer
                       </span>
-                      <span className="n4-color fs-eight">
+                      <span className="n42-color fs-eight">
                         Uber | 2013 - 2014
                       </span>
                     </div>
-                    <p className="n4-color fs-seven">
+                    <p className="n42-color fs-seven">
                       Role description goes here ipsum dolor sit amet,
                       consectetuer adipiscing elit. Aenean commodo ligula eget
                       dolor. Aenean massa. Cum sociis natoque penatibus et
@@ -228,16 +229,16 @@ const Resume = () => {
                       quis, sem. Donec pede justo, fringilla vel.
                     </p>
                   </div>
-                  <div className="mb-3 mb-md-6">
-                    <div className="d-flex flex-wrap gap-2 gap-sm-3 justify-content-between align-items-center mb-2 mb-md-4">
+                  <div className="mb-4 mb-md-6">
+                    <div className="d-flex flex-wrap gap-1 gap-sm-3 justify-content-between align-items-center mb-2 mb-md-4">
                       <span className="n5-color fs-six fw-medium">
                         Backend Developer
                       </span>
-                      <span className="n4-color fs-eight">
+                      <span className="n42-color fs-eight">
                         Amazon | 2014 - 2016
                       </span>
                     </div>
-                    <p className="n4-color fs-seven">
+                    <p className="n42-color fs-seven">
                       Role description goes here ipsum dolor sit amet,
                       consectetuer adipiscing elit. Aenean commodo ligula eget
                       dolor. Aenean massa. Cum sociis natoque penatibus et
@@ -251,11 +252,11 @@ const Resume = () => {
                       <span className="n5-color fs-six fw-medium">
                         Frontend Developer
                       </span>
-                      <span className="n4-color fs-eight">
+                      <span className="n42-color fs-eight">
                         Startup | 2013 - 2014
                       </span>
                     </div>
-                    <p className="n4-color fs-seven">
+                    <p className="n42-color fs-seven">
                       Role description goes here ipsum dolor sit amet,
                       consectetuer adipiscing elit. Aenean commodo ligula eget
                       dolor. Aenean massa. Cum sociis natoque penatibus et
@@ -269,14 +270,14 @@ const Resume = () => {
                     <div className="title-line2"></div>
                     <h2 className="fs-three p1-color fw-semibold">Projects</h2>
                   </div>
-                  <div className="mb-3 mb-md-6">
-                    <div className="d-flex flex-wrap gap-2 gap-sm-3 justify-content-between align-items-center mb-2 mb-md-4">
+                  <div className="mb-4 mb-md-6">
+                    <div className="d-flex flex-wrap gap-1 gap-sm-3 justify-content-between align-items-center mb-2 mb-md-4">
                       <span className="n5-color fs-six fw-medium">
                         Project Lorem Ipsum
                       </span>
-                      <span className="n4-color fs-eight">Open Source</span>
+                      <span className="n42-color fs-eight">Open Source</span>
                     </div>
-                    <p className="n4-color fs-seven">
+                    <p className="n42-color fs-seven">
                       You can use this section for your side projects. You
                       can provide a project link here as well. Lorem ipsum dolor
                       sit amet, consectetuer adipiscing elit. Aenean commodo
@@ -285,14 +286,14 @@ const Resume = () => {
                       ridiculus mus.
                     </p>
                   </div>
-                  <div className="mb-3 mb-md-6">
-                    <div className="d-flex flex-wrap gap-2 gap-sm-3 justify-content-between align-items-center mb-2 mb-md-4">
+                  <div className="mb-4 mb-md-6">
+                    <div className="d-flex flex-wrap gap-1 gap-sm-3 justify-content-between align-items-center mb-2 mb-md-4">
                       <span className="n5-color fs-six fw-medium">
                         Project Sed Fringilla
                       </span>
-                      <span className="n4-color fs-eight">Open Source</span>
+                      <span className="n42-color fs-eight">Open Source</span>
                     </div>
-                    <p className="n4-color fs-seven">
+                    <p className="n42-color fs-seven">
                       You can use this section for your side projects. Cras
                       dapibus. Vivamus elementum semper nisi. Aenean vulputate
                       eleifend tellus. Aenean leo ligula, porttitor eu,
@@ -331,7 +332,7 @@ const Resume = () => {
                         <h5 className="fs-six n5-color fw-medium mb-2 mb-md-4">
                           Technical
                         </h5>
-                        <ul className="d-flex flex-column gap-3 ms-10">
+                        <ul className="d-flex flex-column gap-3 ms-6 ms-lg-10">
                           <li className="n4-color fs-seven">
                             JavaScript/React/Vue
                           </li>
@@ -356,7 +357,7 @@ const Resume = () => {
                         <h5 className="fs-six n5-color fw-medium mb-2 mb-md-4">
                           Professional
                         </h5>
-                        <ul className="d-flex flex-column gap-3 ms-10">
+                        <ul className="d-flex flex-column gap-3 ms-6 ms-lg-10">
                           <li className="n4-color fs-seven">
                             Effective communication
                           </li>
@@ -445,7 +446,7 @@ const Resume = () => {
                           Languages
                         </h2>
                       </div>
-                      <ul className="d-flex flex-column gap-3 ms-10">
+                      <ul className="d-flex flex-column gap-3 ms-6 ms-lg-10">
                         <li className="n4-color fs-seven">English(Native)</li>
                         <li className="n4-color fs-seven">
                           Spanish (Professional)
@@ -460,7 +461,7 @@ const Resume = () => {
                           Interests
                         </h2>
                       </div>
-                      <ul className="d-flex flex-column gap-3 ms-10">
+                      <ul className="d-flex flex-column gap-3 ms-6 ms-lg-10">
                         <li className="n4-color fs-seven">Climbing</li>
                         <li className="n4-color fs-seven">Snowboarding</li>
                         <li className="n4-color fs-seven">Photography</li>
@@ -481,7 +482,7 @@ const Resume = () => {
                       <PiGithubLogo />
                     </i>
                   </div>
-                  <span className="fs-nine n4-color">github.com/username</span>
+                  <span className="fs-eight n4-color">github.com/username</span>
                 </Link>
                 <Link
                   href="#"
@@ -492,7 +493,7 @@ const Resume = () => {
                       <PiLinkedinLogo />
                     </i>
                   </div>
-                  <span className="fs-nine n4-color">
+                  <span className="fs-eight n4-color">
                     linkedin.com/in/username
                   </span>
                 </Link>
@@ -505,13 +506,14 @@ const Resume = () => {
                       <PiXLogo />
                     </i>
                   </div>
-                  <span className="fs-nine n4-color">@twittername</span>
+                  <span className="fs-eight n4-color">@twittername</span>
                 </Link>
               </div>
             </div>
           </FadeDown>
         </div>
       </section>
+      <Footer />
     </div>
   );
 };

@@ -3,7 +3,7 @@ import { Tab, TabGroup, TabList, TabPanel, TabPanels } from "@headlessui/react";
 import { Fragment } from "react";
 import clsx from "clsx";
 import { PiPaperPlaneTilt } from "react-icons/pi";
-import { featureds } from "../../../public/data/AllData";
+import { featureds } from "../../../../public/data/AllData";
 import FeaturedCard from "@/components/Pages/About/Featured/FeaturedCard";
 import Footer from "@/components/Shared/Footer/Footer";
 import Link from "next/link";
@@ -36,7 +36,7 @@ const Portfolio = () => {
         <div className="container mt-8 mt-md-15">
           <FadeDown>
             <TabGroup>
-              <TabList className="d-flex gap-3 gap-md-7 align-items-center justify-content-center">
+              <TabList className="d-flex flex-wrap gap-4 gap-sm-5 gap-md-7 align-items-center justify-content-center">
                 <Tab as={Fragment}>
                   {({ hover, selected }) => (
                     <button

@@ -30,7 +30,7 @@ const WhatDo = () => {
                 <h2 className="display-four n5-color fw-semibold">What I do</h2>
               </div>
               <p className="fs-seven n4-color mt-2 mt-md-4">
-                I have more than 10 years experience building software for
+                I have more than 3 years experience building software for
                 clients all over the world. Below is a quick overview of my main
                 technical skill sets and technologies I use. Want to find out
                 more about my experience? Check out my 
@@ -44,9 +44,6 @@ const WhatDo = () => {
                 .
               </p>
             </div>
-            <button className="p-btn bg1-color fw-medium n11-color px-3 px-md-6 py-2 py-md-4 rounded-pill d-flex align-items-center gap-2 h-100 text-nowrap">
-              <PiArrowRight /> Services & Pricing
-            </button>
           </div>
         </FadeDown>
 

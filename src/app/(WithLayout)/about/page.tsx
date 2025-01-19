@@ -9,7 +9,7 @@ import Footer from "@/components/Shared/Footer/Footer";
 
 const About = () => {
   return (
-    <div>
+    <div className="overflow-hidden">
       <section className="pt-120 pb-60 br-bottom-n3  mt-10 mt-lg-0">
         <div className="container">
           <Banner />
