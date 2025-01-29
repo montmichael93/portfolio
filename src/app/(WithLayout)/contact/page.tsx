@@ -29,39 +29,17 @@ const Contact = () => {
                 You can fill in the contact form below or send me an email to
                 <Link href="#" className="p1-color">
                   {" "}
-                  evans@yourwebsite.com
+                  Mike.montero1993@gmail.com
                 </Link>{" "}
                 .Want to get connected? Follow me on the social channels below.
               </p>
               <div className="d-flex flex-wrap justify-content-center gap-2 align-items-center mt-4">
-                <Link href="#" className="social-icon">
-                  <i className="p1-color">
-                    <PiFacebookLogo />
-                  </i>
-                </Link>
-                <Link href="#" className="social-icon">
-                  <i className="p1-color">
-                    <PiInstagramLogo />
-                  </i>
-                </Link>
-                <Link href="#" className="social-icon">
-                  <i className=" p1-color">
-                    <PiXLogo />
-                  </i>
-                </Link>
-                <Link href="#" className="social-icon">
+                <Link
+                  href="https://www.linkedin.com/in/michaelmontero-dev/"
+                  className="social-icon"
+                >
                   <i className="p1-color">
                     <PiLinkedinLogo />
-                  </i>
-                </Link>
-                <Link href="#" className="social-icon">
-                  <i className="p1-color">
-                    <PiStackOverflowLogo />
-                  </i>
-                </Link>
-                <Link href="#" className="social-icon">
-                  <i className="p1-color">
-                    <PiYoutubeLogo />
                   </i>
                 </Link>
               </div>
@@ -79,9 +57,7 @@ const Contact = () => {
                 </h2>
               </div>
               <p className="fs-seven n4-color mt-2 mt-md-4">
-                If you are going to use a passage of Lorem Ipsum, you need to be
-                sure there isn&apos;t anything embarrassing hidden in the middle
-                of text.
+                Lets Get In Touch
               </p>
             </div>
           </FadeDown>
@@ -97,7 +73,7 @@ const Contact = () => {
                     Phone
                   </span>
                   <Link href="tel:+6494461709" className="n4-color fs-nine">
-                    +123-456-7890
+                    347-409-8196
                   </Link>
                 </div>
               </div>
@@ -110,7 +86,7 @@ const Contact = () => {
                     Location
                   </span>
                   <span className="n4-color fs-nine">
-                    123 Example Street, City, Country
+                    2067 Davidson Avenue, 10453, New York
                   </span>
                 </div>
               </div>
@@ -126,7 +102,7 @@ const Contact = () => {
                     href="mailto:someone@example.com"
                     className="n4-color fs-nine"
                   >
-                    yourmail@domain.com
+                    Mike.montero1993@gmail.com
                   </Link>
                 </div>
               </div>

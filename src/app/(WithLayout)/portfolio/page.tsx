@@ -36,93 +36,11 @@ const Portfolio = () => {
         <div className="container mt-8 mt-md-15">
           <FadeDown>
             <TabGroup>
-              <TabList className="d-flex flex-wrap gap-4 gap-sm-5 gap-md-7 align-items-center justify-content-center">
-                <Tab as={Fragment}>
-                  {({ hover, selected }) => (
-                    <button
-                      className={clsx(
-                        hover && "p1-color",
-                        selected && "tab-active",
-                        "fs-seven  fw-medium n3-color"
-                      )}
-                    >
-                      All
-                    </button>
-                  )}
-                </Tab>
-                <Tab as={Fragment}>
-                  {({ hover, selected }) => (
-                    <button
-                      className={clsx(
-                        hover && "p1-color",
-                        selected && "tab-active",
-                        "fs-seven  fw-medium n3-color"
-                      )}
-                    >
-                      Web App
-                    </button>
-                  )}
-                </Tab>
-                <Tab as={Fragment}>
-                  {({ hover, selected }) => (
-                    <button
-                      className={clsx(
-                        hover && "p1-color",
-                        selected && "tab-active",
-                        "fs-seven  fw-medium n3-color"
-                      )}
-                    >
-                      Mobile App
-                    </button>
-                  )}
-                </Tab>
-                <Tab as={Fragment}>
-                  {({ hover, selected }) => (
-                    <button
-                      className={clsx(
-                        hover && "p1-color",
-                        selected && "tab-active",
-                        "fs-seven  fw-medium n3-color"
-                      )}
-                    >
-                      Frontend
-                    </button>
-                  )}
-                </Tab>
-                <Tab as={Fragment}>
-                  {({ hover, selected }) => (
-                    <button
-                      className={clsx(
-                        hover && "p1-color",
-                        selected && "tab-active",
-                        "fs-seven  fw-medium n3-color"
-                      )}
-                    >
-                      Backend
-                    </button>
-                  )}
-                </Tab>
-              </TabList>
               <TabPanels className="mt-5 mt-md-10">
                 <TabPanel>
                   <div className="row g-5 g-md-10 mt-8 mt-md-15">
-                    {featureds.map(({ id, img, tag1, tag2, tag3, title }) => (
-                      <FeaturedCard
-                        key={id}
-                        img={img}
-                        tag1={tag1}
-                        tag2={tag2}
-                        tag3={tag3}
-                        title={title}
-                      />
-                    ))}
-                  </div>
-                </TabPanel>
-                <TabPanel>
-                  <div className="row g-5 g-md-10 mt-8 mt-md-15">
-                    {featureds
-                      .slice(2, 6)
-                      .map(({ id, img, tag1, tag2, tag3, title }) => (
+                    {featureds.map(
+                      ({ id, img, tag1, tag2, tag3, title, link }) => (
                         <FeaturedCard
                           key={id}
                           img={img}
@@ -130,6 +48,25 @@ const Portfolio = () => {
                           tag2={tag2}
                           tag3={tag3}
                           title={title}
+                          link={link}
+                        />
+                      )
+                    )}
+                  </div>
+                </TabPanel>
+                <TabPanel>
+                  <div className="row g-5 g-md-10 mt-8 mt-md-15">
+                    {featureds
+                      .slice(2, 6)
+                      .map(({ id, img, tag1, tag2, tag3, title, link }) => (
+                        <FeaturedCard
+                          key={id}
+                          img={img}
+                          tag1={tag1}
+                          tag2={tag2}
+                          tag3={tag3}
+                          title={title}
+                          link={link}
                         />
                       ))}
                   </div>
@@ -146,6 +83,7 @@ const Portfolio = () => {
                           tag2={tag2}
                           tag3={tag3}
                           title={title}
+                          link={""}
                         />
                       ))}
                   </div>
@@ -162,6 +100,7 @@ const Portfolio = () => {
                           tag2={tag2}
                           tag3={tag3}
                           title={title}
+                          link={""}
                         />
                       ))}
                   </div>
@@ -178,6 +117,7 @@ const Portfolio = () => {
                           tag2={tag2}
                           tag3={tag3}
                           title={title}
+                          link={""}
                         />
                       ))}
                   </div>

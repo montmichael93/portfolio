@@ -18,9 +18,6 @@ const LatestBlog = () => {
                   Latest Blog Posts
                 </h2>
               </div>
-              <p className="fs-seven n4-color mt-2 mt-md-4">
-                More than 1500+ agencies using Portfolify
-              </p>
             </div>
             <Link
               href="/blog"

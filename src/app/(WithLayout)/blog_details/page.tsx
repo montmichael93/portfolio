@@ -254,7 +254,10 @@ const BlogDetails = () => {
                       <PiXLogo />
                     </i>
                   </Link>
-                  <Link href="#" className="blog-social-icon brn4">
+                  <Link
+                    href="https://www.linkedin.com/in/michaelmontero-dev/"
+                    className="blog-social-icon brn4"
+                  >
                     <i className="p1-color">
                       <PiLinkedinLogo />
                     </i>
@@ -300,9 +303,6 @@ const BlogDetails = () => {
               </div>
             </div>
           </FadeDown>
-
-          <Comments />
-          <LeaveReply />
         </div>
       </section>
       <Footer />

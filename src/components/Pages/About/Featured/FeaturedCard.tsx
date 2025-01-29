@@ -9,18 +9,20 @@ const FeaturedCard = ({
   tag2,
   tag3,
   title,
+  link,
 }: {
   img: StaticImageData;
   tag1: string;
   tag2: string;
   tag3: string;
   title: string;
+  link: string;
 }) => {
   return (
     <div className="col-xl-6">
       <FadeDown>
         <div className="project-card">
-          <Link href="/portfolio_details" className="thumb d-block">
+          <Link href={link} className="thumb d-block">
             <div className="post-thumb">
               <div className="post-thumb-inner">
                 <Image src={img} alt="..." className="w-100 p-2" />
@@ -37,33 +39,33 @@ const FeaturedCard = ({
             <div>
               <div className="d-flex flex-wrap gap-1 gap-sm-2 align-items-center">
                 <Link
-                  href="#"
+                  href={link}
                   className="n5-color fs-nine px-2 px-md-4 py-1 py-md-2 brn3 rounded-pill fw-medium"
                 >
                   {tag1}
                 </Link>
                 <Link
-                  href="#"
+                  href={link}
                   className="n5-color fs-nine px-2 px-md-4 py-1 py-md-2 brn3 rounded-pill fw-medium"
                 >
                   {tag2}
                 </Link>
                 <Link
-                  href="#"
+                  href={link}
                   className="n5-color fs-nine px-2 px-md-4 py-1 py-md-2 brn3 rounded-pill fw-medium"
                 >
                   {tag3}
                 </Link>
               </div>
               <Link
-                href="/portfolio_details"
+                href={link}
                 className="project-title fs-five fw-semibold n5-color mt-3 mt-md-5 d-block"
               >
                 {title}
               </Link>
             </div>
             <Link
-              href="/portfolio_details"
+              href={link}
               className="project-link d-flex align-items-center justify-content-center flex-shrink-0"
             >
               <i className="n5-color">

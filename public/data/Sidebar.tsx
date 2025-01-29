@@ -25,7 +25,7 @@ export const sidebarsData = [
     name: "Portfolio",
     url: "/portfolio",
     icon: <PiCodeBlock />,
-    numbers: 16,
+    numbers: 2,
   },
   {
     id: 3,
@@ -35,7 +35,7 @@ export const sidebarsData = [
   },
   {
     id: 4,
-    name: "Blog",
+    name: "Articles",
     url: "/blog",
     icon: <PiNewspaperClipping />,
   },
@@ -49,7 +49,7 @@ export const sidebarsData = [
 export const bottomNavData = [
   {
     id: 1,
-    name: "About Us",
+    name: "About Me",
     url: "/",
     icon: <PiUserFill />,
   },
@@ -58,34 +58,23 @@ export const bottomNavData = [
     name: "Portfolio",
     url: "/portfolio",
     icon: <PiCodeBlockFill />,
-    numbers: 16,
+    numbers: 4,
   },
+
   {
     id: 3,
-    name: "Pricing",
-    url: "/price",
-    icon: <PiBriefcaseFill />,
-  },
-  {
-    id: 4,
     name: "Resume",
     url: "/resume",
     icon: <PiNotebookFill />,
   },
   {
-    id: 5,
-    name: "Products",
-    url: "/products",
-    icon: <PiShoppingBagFill />,
-  },
-  {
-    id: 6,
-    name: "Blog",
+    id: 4,
+    name: "Articles",
     url: "/blog",
     icon: <PiNewspaperClippingFill />,
   },
   {
-    id: 7,
+    id: 5,
     name: "Contact",
     url: "/contact",
     icon: <PiEnvelopeFill />,

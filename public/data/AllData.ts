@@ -40,24 +40,27 @@ import blog9 from "@/../public/images/blog9.png";
 import product1 from "@/../public/images/react-dashboard.png";
 import product2 from "@/../public/images/ui-kit.png";
 import product3 from "@/../public/images/angular-dashboard.png";
+import curtismadeit from "@/../public/images/curtismadeitdotcom.png";
+import pdfAnalyzer from "@/../public/images/pdfanalyzer.png";
+import vidGallery from "@/../public/images/vidgallery.png";
 
 export const services = [
   {
     id: 1,
-    title: "Vanilla JavaScript",
-    des: "List skills and technologies here. Customize as needed. Built on HTML5, Sass, and Bootstrap 5.",
+    title: "JavaScript & TypeScript",
+    des: "DOM manipulation, ES6+ features, asynchronous programming (Promises, async/await), APIs.",
     imgs: [js],
   },
   {
     id: 2,
     title: "React",
-    des: "List skills and technologies here. Customize as needed. Built on HTML5, Sass, and Bootstrap 5.",
+    des: "JSX, components (functional and class), props, state, lifecycle methods, hooks (useState, useEffect).",
     imgs: [react],
   },
   {
     id: 3,
     title: "Node.js",
-    des: "List skills and technologies here. Customize as needed. Built on HTML5, Sass, and Bootstrap 5.",
+    des: "developing scalable server-side applications using Node.js and frameworks like Express.js and NestJS. ",
     imgs: [node],
   },
   {
@@ -75,13 +78,13 @@ export const services = [
   {
     id: 6,
     title: "npm",
-    des: "List skills and technologies here. Customize as needed. Built on HTML5, Sass, and Bootstrap 5.",
+    des: "Installing, updating, and managing dependencies (dependencies and devDependencies).",
     imgs: [npm],
   },
   {
     id: 7,
     title: "HTML & CSS",
-    des: "List skills and technologies here. Customize as needed. Built on HTML5, Sass, and Bootstrap 5.",
+    des: "Semantic HTML, Accessibility, Media queries, fluid grids & Preprocessors",
     imgs: [html, css],
   },
   {
@@ -95,67 +98,21 @@ export const services = [
 export const featureds = [
   {
     id: 1,
-    tag1: "React Js",
-    tag2: "gsap",
+    tag1: "React Ts",
+    tag2: "YouTube API",
     tag3: "Web Development",
-    title: "Crypto Website Development for DeFi X",
-    img: project1,
+    title: "www.Curtismadeit.com",
+    img: vidGallery,
+    link: "/curtismadeit",
   },
   {
     id: 2,
     tag1: "React Js",
-    tag2: "gsap",
+    tag2: "base64ToArrayBuffer",
     tag3: "Web Development",
-    title: "Salesforce CRM - Invoice Management ",
-    img: project2,
-  },
-  {
-    id: 3,
-    tag1: "React Js",
-    tag2: "gsap",
-    tag3: "Web Development",
-    title: "Car Rental App",
-    img: project3,
-  },
-  {
-    id: 4,
-    tag1: "React Js",
-    tag2: "gsap",
-    tag3: "Web Development",
-    title: "Financial management",
-    img: project4,
-  },
-  {
-    id: 5,
-    tag1: "React Js",
-    tag2: "gsap",
-    tag3: "Web Development",
-    title: "Crypto Website Development for DeFi X",
-    img: project1,
-  },
-  {
-    id: 6,
-    tag1: "React Js",
-    tag2: "gsap",
-    tag3: "Web Development",
-    title: "Salesforce CRM - Invoice Management ",
-    img: project2,
-  },
-  {
-    id: 7,
-    tag1: "React Js",
-    tag2: "gsap",
-    tag3: "Web Development",
-    title: "Car Rental App",
-    img: project3,
-  },
-  {
-    id: 8,
-    tag1: "React Js",
-    tag2: "gsap",
-    tag3: "Web Development",
-    title: "Financial management",
-    img: project4,
+    title: "PDF Analyzer",
+    img: pdfAnalyzer,
+    link: "/pdfanalyzer",
   },
 ];
 
@@ -203,35 +160,35 @@ export const blogs = [
     img: blog1,
     date: "April 18, 2024",
     tag: "Articles",
-    title: "7 Great Web Development Languages to Learn this Year",
+    title: "Github Actions EC2 Deployment: API and Database",
   },
   {
     id: 2,
     img: blog2,
     date: "March 22, 2024",
     tag: "Tutorials",
-    title: "How to Optimize your Website for Better Performance",
+    title: "Github Actions EC2 Deployment: Frontend, API, and Database",
   },
   {
     id: 3,
     img: blog3,
     date: "May 08, 2024",
     tag: "Articles",
-    title: "8 Tips to Improve your Web Development Skills in 2024",
+    title: "Simple EKS Deployment",
   },
   {
     id: 4,
     img: blog4,
     date: "April 18, 2024",
     tag: "Articles",
-    title: "5 Great Web Development Frameworks to Learn in 2022",
+    title: "Manual Fullstack EKS Deployment",
   },
   {
     id: 5,
     img: blog5,
     date: "March 22, 2024",
     tag: "Tutorials",
-    title: "Top 3 JavaScript Frameworks",
+    title: "Github Actions Fullstack EKS Deployment",
   },
   {
     id: 6,
@@ -239,27 +196,6 @@ export const blogs = [
     date: "May 08, 2024",
     tag: "Articles",
     title: "A Guide to Becoming a Full-Stack Developer",
-  },
-  {
-    id: 7,
-    img: blog7,
-    date: "April 18, 2024",
-    tag: "Articles",
-    title: "High Performance JavaScript",
-  },
-  {
-    id: 8,
-    img: blog8,
-    date: "March 22, 2024",
-    tag: "Tutorials",
-    title: "Learn React in 24 Hours",
-  },
-  {
-    id: 9,
-    img: blog9,
-    date: "May 08, 2024",
-    tag: "Articles",
-    title: "How to Build Desktop Apps with HTML, CSS and JavaScript",
   },
 ];
 

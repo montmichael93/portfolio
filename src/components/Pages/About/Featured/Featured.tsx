@@ -34,16 +34,19 @@ const Featured = () => {
         </FadeDown>
 
         <div className="row g-6 g-md-10 ">
-          {featureds.slice(0, 4).map(({ id, img, tag1, tag2, tag3, title }) => (
-            <FeaturedCard
-              key={id}
-              img={img}
-              tag1={tag1}
-              tag2={tag2}
-              tag3={tag3}
-              title={title}
-            />
-          ))}
+          {featureds
+            .slice(0, 4)
+            .map(({ id, img, tag1, tag2, tag3, title, link }) => (
+              <FeaturedCard
+                key={id}
+                img={img}
+                tag1={tag1}
+                tag2={tag2}
+                tag3={tag3}
+                title={title}
+                link={link}
+              />
+            ))}
         </div>
       </div>
     </section>

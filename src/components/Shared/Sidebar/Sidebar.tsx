@@ -120,7 +120,10 @@ const Sidebar = () => {
                   Junior Software Engineer
                 </span>
                 <div className="d-flex justify-content-center gap-2 align-items-center mt-4">
-                  <Link href="#" className="social-icon">
+                  <Link
+                    href="https://www.linkedin.com/in/michaelmontero-dev/"
+                    className="social-icon"
+                  >
                     <i className="p1-color">
                       <PiLinkedinLogo />
                     </i>

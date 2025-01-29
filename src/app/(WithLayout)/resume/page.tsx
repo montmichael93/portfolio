@@ -12,7 +12,8 @@ import {
   PiTrophy,
   PiXLogo,
 } from "react-icons/pi";
-import profile from "@/../public/images/profile.png";
+import profile from "@/../public/images/profile.jpg";
+import me from "@/../public/images/Me.jpg";
 import FadeDown from "@/components/motionEffect/FadeDown";
 import Footer from "@/components/Shared/Footer/Footer";
 const Resume = () => {
@@ -43,10 +44,10 @@ const Resume = () => {
               <div className="d-flex flex-wrap justify-content-between align-items-center gap-3 br-bottom-n3 pb-3 pb-md-6">
                 <div>
                   <h2 className="display-three p1-color fw-semibold">
-                    Chris Evans
+                    Michael Montero
                   </h2>
                   <span className="n4-color fs-six fw-medium">
-                    Senior Software Engineer
+                    Junior Software Engineer
                   </span>
                 </div>
                 <div className="ps-5 br-left-n3">
@@ -57,7 +58,7 @@ const Resume = () => {
                         className="d-flex gap-2 align-items-center n4-color"
                       >
                         <PiPhone />
-                        0123 4567 890
+                        347-409-8196
                       </Link>
                     </li>
                     <li>
@@ -66,7 +67,7 @@ const Resume = () => {
                         className="d-flex gap-2 align-items-center n4-color"
                       >
                         <PiEnvelopeSimple />
-                        Evans@yourwebsite.com
+                        mike.montero1993@gmail.com
                       </Link>
                     </li>
                     <li className="d-flex gap-2 align-items-center n4-color">
@@ -84,7 +85,7 @@ const Resume = () => {
               <div className="d-flex flex-wrap flex-md-nowrap align-items-center gap-5 gap-md-10 pb-4 pb-md-8 br-bottom-n3 pt-60">
                 <div className="resume-profile flex-shrink-0">
                   <Image
-                    src={profile}
+                    src={me}
                     alt="profile"
                     className="object-fit-cover"
                     width="127"
@@ -92,17 +93,14 @@ const Resume = () => {
                   />
                 </div>
                 <p className="n42-color fs-seven">
-                  Summarise your career here. You can make a PDF version of your
-                  resume using our free Sketch template here. Donec quam felis,
-                  ultricies nec, pellentesque eu. Lorem ipsum dolor sit amet,
-                  consectetuer adipiscing elit. Aenean commodo ligula eget
-                  dolor. Aenean massa. Cum sociis natoque penatibus et magnis
-                  dis parturient montes, nascetur ridiculus mus. Donec quam
-                  felis, ultricies nec, pellentesque eu, pretium quis, sem.
-                  Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien
-                  ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet
-                  orci eget eros faucibus tincidunt. Duis leo. Sed fringilla
-                  mauris sit amet nibh.
+                  Translate client business needs into scalable technical
+                  solutions that grow alongside their business. Experience
+                  across multiple industries, providing diverse insights for
+                  effective problem-solving. Native Spanish speaker with
+                  extensive exposure to various industry software, driven by a
+                  strong curiosity to enhance user experiences. Passionate about
+                  staying up-to-date with tech trends through reading and
+                  research to continuously improve as a technologist.
                 </p>
               </div>
 
@@ -118,89 +116,91 @@ const Resume = () => {
                   <div className="mb-4 mb-md-6">
                     <div className="d-flex flex-wrap gap-2 gap-sm-3 justify-content-between align-items-center">
                       <span className="n5-color fs-six fw-medium">
-                        Senior Software Engineer
+                        Freelance Web Developer
                       </span>
                       <span className="n4-color fs-eight">
-                        Google | 2023 - Present
+                        Freelancer | 2023 - Present
                       </span>
                     </div>
                     <p className="n42-color fs-seven my-2 my-md-5">
-                      Role description goes here ipsum dolor sit amet,
-                      consectetuer adipiscing elit. Aenean commodo ligula eget
-                      dolor. Aenean massa. Cum sociis natoque penatibus et
-                      magnis dis parturient montes, nascetur ridiculus mus.
-                      Donec quam felis, ultricies nec, pellentesque eu, pretium
-                      quis, sem. Donec pede justo, fringilla vel. Lorem ipsum
-                      dolor sit amet, consectetuer adipiscing elit. Aenean
-                      commodo ligula eget dolor. Aenean massa. Cum sociis
-                      natoque penatibus et magnis dis parturient montes,
-                      nascetur ridiculus mus. Donec quam felis.
+                      Collaborated with business owners to develop websites and
+                      landing pages using React and Next.js, integrating
+                      relevant APIs for enhanced functionality. Provided
+                      pre-built solutions with HubSpot, Zapier, and Jotform to
+                      capture form inputs before backend development was
+                      required. Strategically planned backend scalability and
+                      implementation using SQLite, Express, and Prisma, ensuring
+                      clients could seamlessly transition to owning their own
+                      databases as their businesses grew.
                     </p>
                     <ul className="d-flex flex-column gap-3 ms-6 ms-lg-10">
                       <li className="n42-color fs-seven">
-                        Lorem ipsum dolor sit amet, consectetuer.
+                        Conducted thorough testing and debugging to ensure
+                        seamless user experiences across devices and browsers.
                       </li>
                       <li className="n42-color fs-seven">
-                        Aenean commodo ligula eget dolor.
+                        Optimized website performance
                       </li>
                       <li className="n42-color fs-seven">
-                        Etiam ultricies nisi vel augue.
+                        Automation of Client interactions
+                      </li>
+                    </ul>
+                  </div>
+                  <div className="mb-4 mb-md-6">
+                    <div className="d-flex flex-wrap gap-1 gap-sm-3 justify-content-between align-items-center">
+                      <span className="n5-color fs-six fw-medium">CSA</span>
+                      <span className="n4-color fs-eight">
+                        Citarella | 2024 - present
+                      </span>
+                    </div>
+                    <p className="n42-color fs-seven my-2 my-md-5">
+                      Leveraged Sage X3’s UI components to perform CRUD
+                      operations on sales and order data within the company
+                      database, ensuring alignment with business requirements.
+                      Collaborated cross-functionally with stores and
+                      departments to generate reports, enabling data-driven
+                      inventory and fulfillment decisions. Developed a PDF
+                      analyzer to convert PDF data into JSON, automating order
+                      verification to ensure stores placed the necessary daily
+                      orders.
+                    </p>
+                    <ul className="d-flex flex-column gap-3 ms-6 ms-lg-10">
+                      <li className="n42-color fs-seven">
+                        Enhanced data accuracy and efficiency by automating
+                        manual processes, reducing errors in sales and order
+                        management.
+                      </li>
+                      <li className="n42-color fs-seven">
+                        Optimized report generation workflows, improving
+                        decision-making speed for inventory and fulfillment
+                        operations.
+                      </li>
+                      <li className="n42-color fs-seven">
+                        Collaborated with stakeholders to refine data processing
+                        strategies, ensuring seamless integration with existing
+                        business systems.
                       </li>
                     </ul>
                   </div>
                   <div className="mb-4 mb-md-6">
                     <div className="d-flex flex-wrap gap-1 gap-sm-3 justify-content-between align-items-center">
                       <span className="n5-color fs-six fw-medium">
-                        Lead Software Developer
+                        Retention Rep
                       </span>
                       <span className="n4-color fs-eight">
-                        Apple | 2016 - 2019
+                        Alorica | 2022 - 2023
                       </span>
                     </div>
                     <p className="n42-color fs-seven my-2 my-md-5">
-                      Role description goes here ipsum dolor sit amet,
-                      consectetuer adipiscing elit. Aenean commodo ligula eget
-                      dolor. Aenean massa. Cum sociis natoque penatibus et
-                      magnis dis parturient montes, nascetur ridiculus mus.
-                      Donec quam felis, ultricies nec, pellentesque eu, pretium
-                      quis, sem. Donec pede justo, fringilla vel. Lorem ipsum
-                      dolor sit amet, consectetuer adipiscing elit. Aenean
-                      commodo ligula eget dolor. Aenean massa. Cum sociis
-                      natoque penatibus et magnis dis parturient montes,
-                      nascetur ridiculus mus. Donec quam felis.
-                    </p>
-                    <ul className="d-flex flex-column gap-3 ms-6 ms-lg-10">
-                      <li className="n42-color fs-seven">
-                        Lorem ipsum dolor sit amet, consectetuer.
-                      </li>
-                      <li className="n42-color fs-seven">
-                        Aenean commodo ligula eget dolor.
-                      </li>
-                      <li className="n42-color fs-seven">
-                        Etiam ultricies nisi vel augue.
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="mb-4 mb-md-6">
-                    <div className="d-flex flex-wrap gap-1 gap-sm-3 justify-content-between align-items-center">
-                      <span className="n5-color fs-six fw-medium">
-                        Senior Software Developer
-                      </span>
-                      <span className="n4-color fs-eight">
-                        Dropbox | 2014 - 2016
-                      </span>
-                    </div>
-                    <p className="n42-color fs-seven my-2 my-md-5">
-                      Role description goes here ipsum dolor sit amet,
-                      consectetuer adipiscing elit. Aenean commodo ligula eget
-                      dolor. Aenean massa. Cum sociis natoque penatibus et
-                      magnis dis parturient montes, nascetur ridiculus mus.
-                      Donec quam felis, ultricies nec, pellentesque eu, pretium
-                      quis, sem. Donec pede justo, fringilla vel. Lorem ipsum
-                      dolor sit amet, consectetuer adipiscing elit. Aenean
-                      commodo ligula eget dolor. Aenean massa. Cum sociis
-                      natoque penatibus et magnis dis parturient montes,
-                      nascetur ridiculus mus. Donec quam felis.
+                      Managed and strengthened over 900 client relationships by
+                      providing tailored solutions and exclusive offers.
+                      Prevented fraudulent access by verifying up to 50 client
+                      accounts daily through meticulous data analysis. Provided
+                      technical support for more than 300 smartphones,
+                      diagnosing issues and guiding clients on best practices.
+                      Utilized company software to manage customer data, analyze
+                      trends, and optimize client interactions, demonstrating
+                      strong problem-solving and technical skills.
                     </p>
                     <ul className="d-flex flex-column gap-3 ms-6 ms-lg-10">
                       <li className="n42-color fs-seven">
@@ -213,56 +213,27 @@ const Resume = () => {
                   </div>
                   <div className="mb-4 mb-md-6">
                     <div className="d-flex flex-wrap gap-1 gap-sm-3 justify-content-between align-items-center mb-2 mb-md-4">
-                      <span className="n5-color fs-six fw-medium">
-                        Senior Developer
-                      </span>
+                      <span className="n5-color fs-six fw-medium">MSR</span>
                       <span className="n42-color fs-eight">
-                        Uber | 2013 - 2014
+                        32BJ benefit funds | 2018 - 2021
                       </span>
                     </div>
                     <p className="n42-color fs-seven">
-                      Role description goes here ipsum dolor sit amet,
-                      consectetuer adipiscing elit. Aenean commodo ligula eget
-                      dolor. Aenean massa. Cum sociis natoque penatibus et
-                      magnis dis parturient montes, nascetur ridiculus mus.
-                      Donec quam felis, ultricies nec, pellentesque eu, pretium
-                      quis, sem. Donec pede justo, fringilla vel.
-                    </p>
-                  </div>
-                  <div className="mb-4 mb-md-6">
-                    <div className="d-flex flex-wrap gap-1 gap-sm-3 justify-content-between align-items-center mb-2 mb-md-4">
-                      <span className="n5-color fs-six fw-medium">
-                        Backend Developer
-                      </span>
-                      <span className="n42-color fs-eight">
-                        Amazon | 2014 - 2016
-                      </span>
-                    </div>
-                    <p className="n42-color fs-seven">
-                      Role description goes here ipsum dolor sit amet,
-                      consectetuer adipiscing elit. Aenean commodo ligula eget
-                      dolor. Aenean massa. Cum sociis natoque penatibus et
-                      magnis dis parturient montes, nascetur ridiculus mus.
-                      Donec quam felis, ultricies nec, pellentesque eu, pretium
-                      quis, sem. Donec pede justo, fringilla vel.
-                    </p>
-                  </div>
-                  <div className="mb-5 mb-md-10">
-                    <div className="d-flex flex-wrap gap-2 gap-sm-3 justify-content-between align-items-center mb-2 mb-md-4">
-                      <span className="n5-color fs-six fw-medium">
-                        Frontend Developer
-                      </span>
-                      <span className="n42-color fs-eight">
-                        Startup | 2013 - 2014
-                      </span>
-                    </div>
-                    <p className="n42-color fs-seven">
-                      Role description goes here ipsum dolor sit amet,
-                      consectetuer adipiscing elit. Aenean commodo ligula eget
-                      dolor. Aenean massa. Cum sociis natoque penatibus et
-                      magnis dis parturient montes, nascetur ridiculus mus.
-                      Donec quam felis, ultricies nec, pellentesque eu, pretium
-                      quis, sem. Donec pede justo, fringilla vel.
+                      Collected and analyzed high-volume data in real time to
+                      troubleshoot and resolve complex issues efficiently.
+                      Provided customer support, leveraging various systems
+                      (COOL/V3/DYNAMICS, CRM/WF, and vendor platforms) to manage
+                      eligibility, benefits, and claims processing. Demonstrated
+                      proficiency in multiple database-driven systems, ensuring
+                      accuracy and compliance with workflows. Managed and
+                      organized a personal queue of inquiries, analyzing
+                      customer interactions to identify patterns and optimize
+                      resolution processes. Utilized multiple software tools to
+                      research, document, and resolve customer inquiries while
+                      maintaining quality and performance standards. Effectively
+                      communicated technical concepts to non-technical users,
+                      refining problem-solving and analytical skills essential
+                      for technology-driven roles.
                     </p>
                   </div>
 
@@ -273,46 +244,48 @@ const Resume = () => {
                   <div className="mb-4 mb-md-6">
                     <div className="d-flex flex-wrap gap-1 gap-sm-3 justify-content-between align-items-center mb-2 mb-md-4">
                       <span className="n5-color fs-six fw-medium">
-                        Project Lorem Ipsum
+                        curtismadeit
                       </span>
-                      <span className="n42-color fs-eight">Open Source</span>
+                      <span className="n42-color fs-eight">2023</span>
                     </div>
                     <p className="n42-color fs-seven">
-                      You can use this section for your side projects. You
-                      can provide a project link here as well. Lorem ipsum dolor
-                      sit amet, consectetuer adipiscing elit. Aenean commodo
-                      ligula eget dolor. Aenean massa. Cum sociis natoque
-                      penatibus et magnis dis parturient montes, nascetur
-                      ridiculus mus.
+                      Developed a website for a DIY woodworking YouTuber,
+                      showcasing builds and available products to engage
+                      subscribers and facilitate sales. Implemented a
+                      user-friendly interface and contact system, enabling
+                      potential buyers to easily reach out. Optimized site
+                      performance and responsiveness to ensure a seamless
+                      browsing experience across devices.
                     </p>
                   </div>
                   <div className="mb-4 mb-md-6">
                     <div className="d-flex flex-wrap gap-1 gap-sm-3 justify-content-between align-items-center mb-2 mb-md-4">
                       <span className="n5-color fs-six fw-medium">
-                        Project Sed Fringilla
+                        PDF analyzer
                       </span>
-                      <span className="n42-color fs-eight">Open Source</span>
+                      <span className="n42-color fs-eight">2024</span>
                     </div>
                     <p className="n42-color fs-seven">
-                      You can use this section for your side projects. Cras
-                      dapibus. Vivamus elementum semper nisi. Aenean vulputate
-                      eleifend tellus. Aenean leo ligula, porttitor eu,
-                      consequat vitae, eleifend ac, enim.
+                      Designed and implemented a PDF analyzer to extract and
+                      convert PDF data into structured JSON format, streamlining
+                      order verification processes. This automation replaced
+                      manual data entry, reducing errors and ensuring stores
+                      consistently placed the necessary daily orders. Integrated
+                      the solution with existing business workflows, enabling
+                      real-time validation and improving operational efficiency.
+                      Collaborated with stakeholders to refine the tools
+                      functionality, ensuring seamless adoption and alignment
+                      with business needs.
                     </p>
                   </div>
                   <div>
                     <div className="d-flex flex-wrap gap-2 gap-sm-3 justify-content-between align-items-center mb-2 mb-md-4">
                       <span className="n5-color fs-six fw-medium">
-                        Project Praesent
+                        Task Rabbit Clone
                       </span>
-                      <span className="n4-color fs-eight">Open Source</span>
+                      <span className="n4-color fs-eight">2024</span>
                     </div>
-                    <p className="n4-color fs-seven">
-                      You can use this section for your side projects. Cras
-                      dapibus. Vivamus elementum semper nisi. Aenean vulputate
-                      eleifend tellus. Aenean leo ligula, porttitor eu,
-                      consequat vitae, eleifend ac, enim.
-                    </p>
+                    <p className="n4-color fs-seven">Coming soon...</p>
                   </div>
                 </div>
 
@@ -333,14 +306,10 @@ const Resume = () => {
                           Technical
                         </h5>
                         <ul className="d-flex flex-column gap-3 ms-6 ms-lg-10">
-                          <li className="n4-color fs-seven">
-                            JavaScript/React/Vue
-                          </li>
-                          <li className="n4-color fs-seven">Python/Ruby/PHP</li>
-                          <li className="n4-color fs-seven">Node.js/ASP.NET</li>
-                          <li className="n4-color fs-seven">
-                            PostgreSQL/MySQL
-                          </li>
+                          <li className="n4-color fs-seven">React/Angular</li>
+                          <li className="n4-color fs-seven">NPM</li>
+                          <li className="n4-color fs-seven">Node.js</li>
+                          <li className="n4-color fs-seven">MySQL</li>
                           <li className="n4-color fs-seven">
                             Object-oriented design
                           </li>
@@ -386,10 +355,10 @@ const Resume = () => {
                         </i>
                         <div>
                           <span className="n4-color fs-seven">
-                            MSc in Computer Science University College London
+                            TCI College of Technology
                           </span>
                           <span className="n4-color fs-eleven">
-                            2010 - 2011
+                            2015 - 2015
                           </span>
                         </div>
                       </div>
@@ -399,45 +368,15 @@ const Resume = () => {
                         </i>
                         <div>
                           <span className="n4-color fs-seven">
-                            BSc Maths and Physics Imperial College London
+                            Devslopes Academy
                           </span>
                           <span className="n4-color fs-eleven">
-                            2007 - 2010
+                            2022 - 2024
                           </span>
                         </div>
                       </div>
                     </div>
-                    {/* <!-- awards  --> */}
-                    <div className="mb-8 mb-md-15">
-                      <div className="d-flex align-items-center gap-2 mb-3 mb-md-6">
-                        <div className="title-line2"></div>
-                        <h2 className="fs-three p1-color fw-semibold">
-                          Awards
-                        </h2>
-                      </div>
-                      <div className="d-flex gap-2 mb-3 mb-md-5">
-                        <i className=" fs-six p1-color">
-                          <PiTrophy />
-                        </i>
-                        <div>
-                          <span className="n4-color fs-seven">
-                            Award Lorem Ipsum Microsoft lorem ipsum
-                          </span>
-                          <span className="n4-color fs-eleven">2019</span>
-                        </div>
-                      </div>
-                      <div className="d-flex gap-2">
-                        <i className=" fs-six p1-color">
-                          <PiTrophy />
-                        </i>
-                        <div>
-                          <span className="n4-color fs-seven">
-                            Award Donec Sodales Oracle Aenean
-                          </span>
-                          <span className="n4-color fs-eleven">2017</span>
-                        </div>
-                      </div>
-                    </div>
+
                     {/* <!-- Languages  --> */}
                     <div className="mb-8 mb-md-15">
                       <div className="d-flex align-items-center gap-2 mb-3 mb-md-6">
@@ -447,10 +386,9 @@ const Resume = () => {
                         </h2>
                       </div>
                       <ul className="d-flex flex-column gap-3 ms-6 ms-lg-10">
-                        <li className="n4-color fs-seven">English(Native)</li>
-                        <li className="n4-color fs-seven">
-                          Spanish (Professional)
-                        </li>
+                        <li className="n4-color fs-seven">TypeScript</li>
+                        <li className="n4-color fs-seven">Python</li>
+                        <li className="n4-color fs-seven">C#</li>
                       </ul>
                     </div>
                     {/* <!-- Interests  --> */}
@@ -462,10 +400,10 @@ const Resume = () => {
                         </h2>
                       </div>
                       <ul className="d-flex flex-column gap-3 ms-6 ms-lg-10">
-                        <li className="n4-color fs-seven">Climbing</li>
-                        <li className="n4-color fs-seven">Snowboarding</li>
-                        <li className="n4-color fs-seven">Photography</li>
-                        <li className="n4-color fs-seven">Travelling</li>
+                        <li className="n4-color fs-seven">Technology</li>
+                        <li className="n4-color fs-seven">LLMs</li>
+                        <li className="n4-color fs-seven">Crypto</li>
+                        <li className="n4-color fs-seven">Tech News</li>
                       </ul>
                     </div>
                   </div>
@@ -474,7 +412,7 @@ const Resume = () => {
 
               <div className="d-flex flex-wrap gap-2 gap-md-3 gap-md-5 align-items-center justify-content-center mt-4 mt-md-8">
                 <Link
-                  href="#"
+                  href="https://github.com/montmichael93"
                   className="d-flex gap-1 align-items-center resume-icon"
                 >
                   <div className="social-icon">
@@ -482,10 +420,12 @@ const Resume = () => {
                       <PiGithubLogo />
                     </i>
                   </div>
-                  <span className="fs-eight n4-color">github.com/username</span>
+                  <span className="fs-eight n4-color">
+                    github.com/montmichael93
+                  </span>
                 </Link>
                 <Link
-                  href="#"
+                  href="https://www.linkedin.com/in/michaelmontero-dev/"
                   className="d-flex gap-1 align-items-center resume-icon"
                 >
                   <div className="social-icon">
@@ -494,19 +434,8 @@ const Resume = () => {
                     </i>
                   </div>
                   <span className="fs-eight n4-color">
-                    linkedin.com/in/username
+                    linkedin.com/in/michaelmontero-dev
                   </span>
-                </Link>
-                <Link
-                  href="#"
-                  className="d-flex gap-1 align-items-center resume-icon"
-                >
-                  <div className="social-icon">
-                    <i className="p1-color">
-                      <PiXLogo />
-                    </i>
-                  </div>
-                  <span className="fs-eight n4-color">@twittername</span>
                 </Link>
               </div>
             </div>
