@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import profile from "@/../public/images/me.jpg";
+import profile from "@/../public/images/Me.jpg";
 import { useTheme } from "next-themes";
 import { usePathname } from "next/navigation";
 import { PiLinkedinLogo, PiPaperPlaneTilt, PiX } from "react-icons/pi";
