@@ -3,7 +3,7 @@ import { PiArrowRight, PiPaperPlaneTilt } from "react-icons/pi";
 import project1 from "@/../public/images/project1.png";
 import project2 from "@/../public/images/project2.png";
 import project3 from "@/../public/images/project3.png";
-import curtisMadeit from "@/../public/images/curtisMadeitdotcom.png";
+import curtisMadeit from "@/../public/images/curtismadeitdotcom.png";
 import affiliates from "@/../public/images/affiliates.png";
 import shopPage from "@/../public/images/shopPage.png";
 import Footer from "@/components/Shared/Footer/Footer";
