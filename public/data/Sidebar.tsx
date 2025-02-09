@@ -35,12 +35,6 @@ export const sidebarsData = [
   },
   {
     id: 4,
-    name: "Articles",
-    url: "/blog",
-    icon: <PiNewspaperClipping />,
-  },
-  {
-    id: 5,
     name: "Contact",
     url: "/contact",
     icon: <PiEnvelope />,

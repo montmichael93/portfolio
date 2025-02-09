@@ -148,7 +148,7 @@ const Resume = () => {
                   </div>
                   <div className="mb-4 mb-md-6">
                     <div className="d-flex flex-wrap gap-1 gap-sm-3 justify-content-between align-items-center">
-                      <span className="n5-color fs-six fw-medium">CSA</span>
+                      <span className="n5-color fs-six fw-medium">CCA</span>
                       <span className="n4-color fs-eight">
                         Citarella | 2024 - present
                       </span>
@@ -204,10 +204,13 @@ const Resume = () => {
                     </p>
                     <ul className="d-flex flex-column gap-3 ms-6 ms-lg-10">
                       <li className="n42-color fs-seven">
-                        Lorem ipsum dolor sit amet, consectetuer.
+                        Retained 900 client relationships: retained client
+                        relationships by offering exclusive offers
                       </li>
                       <li className="n42-color fs-seven">
-                        Aenean commodo ligula eget dolor.
+                        Technically supported: troubleshooting over 300
+                        smartphones and communicated with clients on best
+                        practices.
                       </li>
                     </ul>
                   </div>

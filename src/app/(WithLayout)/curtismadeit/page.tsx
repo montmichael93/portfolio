@@ -22,9 +22,7 @@ const PortfolioDetails = () => {
                 Case Study: Website Development for DIY Influencer
               </h3>
               <p className="fs-seven n5-color mb-4 mb-md-8 text-center">
-                Project intro goes here. In the intro it&apos;s a good idea to
-                answer a potential client&apos;s need/problem so it&apos;s more
-                likely to land your next project or job.
+                Youtube API showcase for woodworking influencer
               </p>
               <Link
                 href="/contact"
@@ -93,26 +91,27 @@ const PortfolioDetails = () => {
                   </div>
                   <div data-aos="fade-up" className="my-8 my-md-15">
                     <p className="text-seven n4-color">
-                      Short description of the client and project requirements.
-                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                      Aenean commodo ligula eget dolor. Lorem ipsum dolor sit
-                      amet, consectetuer adipiscing elit. Aenean commodo ligula
-                      eget dolor.
+                      Short description of the client and project requirements:
+                      A DIY woodworking YouTuber needed a dedicated website to
+                      showcase all of his videos and affiliate links while also
+                      providing a streamlined messaging system for custom
+                      woodworking requests. Previously, he relied on Instagram
+                      for inquiries, which was not an efficient way to manage
+                      customer interactions.
                     </p>
                     <h3 className="fs-five n5-color fw-semibold mt-5 mt-md-10 mb-2 mb-md-4">
                       Project Requirements
                     </h3>
                     <ul>
                       <li className="n4-color fs-seven mb-2 mb-md-3">
-                        Requirement lorem ipsum dolor sit amet, consectetuer
-                        adipiscing elit.
+                        Display all YouTube videos in an organized,
+                        user-friendly layout.
                       </li>
                       <li className="n4-color fs-seven mb-2 mb-md-3">
-                        Requirement donec pede justo, fringilla vel, aliquet
-                        nec.
+                        Integrate the YouTube API for automatic video updates.
                       </li>
                       <li className="n4-color fs-seven mb-2 mb-md-3">
-                        Requirement phasellus ullamcorper ipsum rutrum nunc.
+                        Integrate affiliate links seamlessly for monetization.
                       </li>
                     </ul>
                   </div>
@@ -121,15 +120,19 @@ const PortfolioDetails = () => {
                       Project Overview
                     </h2>
                     <p className="text-seven n4-color">
-                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                      Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
-                      natoque penatibus et magnis dis parturient montes,
-                      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-                      pellentesque eu, pretium quis, sem. Nulla consequat massa
-                      quis enim. Donec pede justo, fringilla vel, aliquet nec,
-                      vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet
-                      a, venenatis vitae, justo. Nullam dictum felis eu pede
-                      mollis pretium. Integer tincidunt. Cras dapibus.
+                      The website was designed to be a central hub for the
+                      creator’s woodworking content, enabling fans and potential
+                      customers to browse his video library and directly reach
+                      out for custom projects. By integrating JotForm, Zapier,
+                      and HubSpot, the messaging system ensures that inquiries
+                      are properly captured and managed, reducing the chances of
+                      missed opportunities. The YouTube API was implemented to
+                      dynamically update video content, eliminating manual
+                      uploads. Additionally, an analytics system was added to
+                      monitor traffic and user engagement, providing valuable
+                      insights into visitor behavior. The goal was to create a
+                      professional and functional platform that helps the client
+                      expand his business beyond YouTube and social media.
                     </p>
                   </div>
                 </FadeDown>
@@ -139,15 +142,15 @@ const PortfolioDetails = () => {
                       The Challenge
                     </h2>
                     <p className="text-seven n4-color">
-                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                      Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
-                      natoque penatibus et magnis dis parturient montes,
-                      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-                      pellentesque eu, pretium quis, sem. Nulla consequat massa
-                      quis enim. Donec pede justo, fringilla vel, aliquet nec,
-                      vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet
-                      a, venenatis vitae, justo. Nullam dictum felis eu pede
-                      mollis pretium. Integer tincidunt. Cras dapibus.
+                      Previously, the client handled all communication through
+                      Instagram, leading to cluttered and disorganized messages.
+                      Many inquiries were lost in direct messages or took too
+                      long to respond to, impacting customer engagement.
+                      Additionally, there was no structured way to display
+                      affiliate links, limiting potential revenue from sponsored
+                      tools and materials. The lack of analytics also meant the
+                      client had no clear visibility into site performance and
+                      visitor engagement.
                     </p>
                   </div>
                   <div data-aos="fade-up" className="mb-8 mb-md-15">
@@ -155,15 +158,22 @@ const PortfolioDetails = () => {
                       The Approach & Solution
                     </h2>
                     <p className="text-seven n4-color mb-5 mb-md-10">
-                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                      Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
-                      natoque penatibus et magnis dis parturient montes,
-                      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-                      pellentesque eu, pretium quis, sem. Nulla consequat massa
-                      quis enim. Donec pede justo, fringilla vel, aliquet nec,
-                      vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet
-                      a, venenatis vitae, justo. Nullam dictum felis eu pede
-                      mollis pretium. Integer tincidunt. Cras dapibus.
+                      To address these challenges, I built a structured website
+                      using React and Next.js, ensuring optimal performance and
+                      user experience. YouTube videos were embedded dynamically
+                      using the YouTube API, allowing for automatic updates as
+                      new content was uploaded. Affiliate links were
+                      strategically placed throughout the site for better
+                      visibility. For the messaging system, I implemented
+                      JotForm for form submissions, Zapier for automation, and
+                      HubSpot for contact management. This combination allowed
+                      for seamless lead capturing and organization,
+                      significantly improving response times and customer
+                      satisfaction. To provide deeper insights into site
+                      performance, I integrated an analytics solution to track
+                      visitor traffic, user interactions, and referral sources.
+                      This data enables the client to optimize content and
+                      engagement strategies effectively.
                     </p>
                     <div className="row g-3 g-md-6">
                       <div className="col-sm-6 overflow-hidden">
@@ -182,11 +192,10 @@ const PortfolioDetails = () => {
                       </div>
                     </div>
                     <p className="text-seven n4-color mt-5 mt-md-10">
-                      Short description of the client and project requirements.
-                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                      Aenean commodo ligula eget dolor. Lorem ipsum dolor sit
-                      amet, consectetuer adipiscing elit. Aenean commodo ligula
-                      eget dolor.
+                      With this new system in place, the client can focus on
+                      creating content while ensuring a smooth workflow for
+                      customer interactions, revenue generation, and data-driven
+                      decision-making.
                     </p>
                   </div>
                 </FadeDown>
@@ -203,81 +212,72 @@ const PortfolioDetails = () => {
                           </span>
                           <div className="d-flex align-items-end gap-1 mb-2 mb-md-3">
                             <h4 className="fs-three n5-color fw-semibold">
-                              20%
+                              30%
                             </h4>
                             <span className="fs-six n4-color fw-medium">
-                              up
+                              improvement
                             </span>
                           </div>
                           <p className="fs-eight n4-color">
-                            Metric description lorem ipsum dolor sit amet.
+                            in managing customer inquiries.
                           </p>
                         </div>
                       </div>
                       <div className="col-sm-6 col-xl-4 col-xxl-3">
                         <div className="bgn2-color brn4 p-3 p-md-5">
                           <span className="p1-color fs-six fw-medium mb-2 d-block">
-                            Customer Happy
+                            Customer Engagement
                           </span>
                           <div className="d-flex align-items-end gap-1 mb-2 mb-md-3">
                             <h4 className="fs-three n5-color fw-semibold">
-                              14%
+                              25%
                             </h4>
                             <span className="fs-six n4-color fw-medium">
-                              up
+                              increase
                             </span>
                           </div>
                           <p className="fs-eight n4-color">
-                            Metric description lorem ipsum dolor sit amet.
+                            in direct communication with potential buyers.
                           </p>
                         </div>
                       </div>
                       <div className="col-sm-6 col-xl-4 col-xxl-3">
                         <div className="bgn2-color brn4 p-3 p-md-5">
                           <span className="p1-color fs-six fw-medium mb-2 d-block">
-                            Sales Generated
+                            Time Savings
                           </span>
                           <div className="d-flex align-items-end gap-1 mb-2 mb-md-3">
                             <h4 className="fs-three n5-color fw-semibold">
-                              $130K
+                              Reduced
                             </h4>
                           </div>
                           <p className="fs-eight n4-color">
-                            Metric description lorem ipsum dolor sit amet.
+                            Reduced time spent on managing social media messages
+                            by automating inquiries.
                           </p>
                         </div>
                       </div>
                       <div className="col-sm-6 col-xl-4 col-xxl-3">
                         <div className="bgn2-color brn4 p-3 p-md-5">
                           <span className="p1-color fs-six fw-medium mb-2 d-block">
-                            Overall Cost
+                            Affiliate Revenue
                           </span>
                           <div className="d-flex align-items-end gap-1 mb-2 mb-md-3">
                             <h4 className="fs-three n5-color fw-semibold">
-                              20%
+                              Higher visibility
                             </h4>
                             <span className="fs-six n4-color fw-medium">
                               down
                             </span>
                           </div>
                           <p className="fs-eight n4-color">
-                            Metric description lorem ipsum dolor sit amet.
+                            of affiliate links led to a 40% increase in
+                            click-through rates.
                           </p>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <p data-aos="fade-up" className="text-seven n4-color">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                    Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
-                    natoque penatibus et magnis dis parturient montes, nascetur
-                    ridiculus mus. Donec quam felis, ultricies nec, pellentesque
-                    eu, pretium quis, sem. Nulla consequat massa quis enim.
-                    Donec pede justo, fringilla vel, aliquet nec, vulputate
-                    eget, arcu. In enim justo, rhoncus ut, imperdiet a,
-                    venenatis vitae, justo. Nullam dictum felis eu pede mollis
-                    pretium. Integer tincidunt. Cras dapibus.
-                  </p>
                 </FadeDown>
               </div>
             </div>

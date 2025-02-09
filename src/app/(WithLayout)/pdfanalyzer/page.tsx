@@ -3,6 +3,9 @@ import { PiArrowRight, PiPaperPlaneTilt } from "react-icons/pi";
 import project1 from "@/../public/images/project1.png";
 import project2 from "@/../public/images/project2.png";
 import project3 from "@/../public/images/project3.png";
+import json from "@/../public/images/json.png";
+import pdfanapage from "@/../public/images/pdfanapage.png";
+import encoding from "@/../public/images/encoding.png";
 import Footer from "@/components/Shared/Footer/Footer";
 import Image from "next/image";
 import Link from "next/link";
@@ -16,12 +19,11 @@ const PortfolioDetails = () => {
           <FadeDown>
             <div className="page-heading">
               <h3 className="page-title fs-onefw-semibold n5-color mb-2 mb-md-3 text-center">
-                Case Study: Agency Website Development for Dev X
+                Case Study: PDF Consolidated Report Analyzer
               </h3>
               <p className="fs-seven n5-color mb-4 mb-md-8 text-center">
-                Project intro goes here. In the intro it&apos;s a good idea to
-                answer a potential client&apos;s need/problem so it&apos;s more
-                likely to land your next project or job.
+                Automation of business workflow that verifies reports of store
+                orders
               </p>
               <Link
                 href="/contact"
@@ -83,33 +85,34 @@ const PortfolioDetails = () => {
                 <FadeDown>
                   <div className="overflow-hidden">
                     <Image
-                      src={project1}
+                      src={pdfanapage}
                       alt="project"
                       className="w-100 portfolio-details-img"
                     />
                   </div>
                   <div data-aos="fade-up" className="my-8 my-md-15">
                     <p className="text-seven n4-color">
-                      Short description of the client and project requirements.
-                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                      Aenean commodo ligula eget dolor. Lorem ipsum dolor sit
-                      amet, consectetuer adipiscing elit. Aenean commodo ligula
-                      eget dolor.
+                      A food distribution company needed a way to efficiently
+                      verify whether stores had ordered all mandatory items from
+                      their consolidated order reports. These reports were
+                      generated as PDFs, containing encoded data that made
+                      manual verification cumbersome and time-consuming. The
+                      client required a solution that could programmatically
+                      extract and validate this data.
                     </p>
                     <h3 className="fs-five n5-color fw-semibold mt-5 mt-md-10 mb-2 mb-md-4">
                       Project Requirements
                     </h3>
                     <ul>
                       <li className="n4-color fs-seven mb-2 mb-md-3">
-                        Requirement lorem ipsum dolor sit amet, consectetuer
-                        adipiscing elit.
+                        Convert encoded PDF data into a Base64 array buffer.
                       </li>
                       <li className="n4-color fs-seven mb-2 mb-md-3">
-                        Requirement donec pede justo, fringilla vel, aliquet
-                        nec.
+                        Parse the buffer and transform it into JSON format.
                       </li>
                       <li className="n4-color fs-seven mb-2 mb-md-3">
-                        Requirement phasellus ullamcorper ipsum rutrum nunc.
+                        Ensure accuracy and efficiency in data extraction and
+                        verification.
                       </li>
                     </ul>
                   </div>
@@ -118,15 +121,12 @@ const PortfolioDetails = () => {
                       Project Overview
                     </h2>
                     <p className="text-seven n4-color">
-                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                      Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
-                      natoque penatibus et magnis dis parturient montes,
-                      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-                      pellentesque eu, pretium quis, sem. Nulla consequat massa
-                      quis enim. Donec pede justo, fringilla vel, aliquet nec,
-                      vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet
-                      a, venenatis vitae, justo. Nullam dictum felis eu pede
-                      mollis pretium. Integer tincidunt. Cras dapibus.
+                      To address the clients needs, a custom tool was developed
+                      to process the encoded PDF reports, extract relevant data,
+                      and analyze the contents to ensure compliance with
+                      mandatory ordering requirements. The solution automated a
+                      previously manual verification process, significantly
+                      reducing errors and time spent on review.
                     </p>
                   </div>
                 </FadeDown>
@@ -136,15 +136,14 @@ const PortfolioDetails = () => {
                       The Challenge
                     </h2>
                     <p className="text-seven n4-color">
-                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                      Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
-                      natoque penatibus et magnis dis parturient montes,
-                      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-                      pellentesque eu, pretium quis, sem. Nulla consequat massa
-                      quis enim. Donec pede justo, fringilla vel, aliquet nec,
-                      vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet
-                      a, venenatis vitae, justo. Nullam dictum felis eu pede
-                      mollis pretium. Integer tincidunt. Cras dapibus.
+                      The key challenge was handling the encoded PDF data and
+                      converting it into a structured format that could be
+                      programmatically analyzed. The reports contained complex
+                      data structures, requiring a precise method to extract
+                      relevant fields while maintaining data integrity.
+                      Additionally, the solution had to be efficient enough to
+                      handle large volumes of reports without performance
+                      bottlenecks.
                     </p>
                   </div>
                   <div data-aos="fade-up" className="mb-8 mb-md-15">
@@ -152,39 +151,35 @@ const PortfolioDetails = () => {
                       The Approach & Solution
                     </h2>
                     <p className="text-seven n4-color mb-5 mb-md-10">
-                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                      Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
-                      natoque penatibus et magnis dis parturient montes,
-                      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-                      pellentesque eu, pretium quis, sem. Nulla consequat massa
-                      quis enim. Donec pede justo, fringilla vel, aliquet nec,
-                      vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet
-                      a, venenatis vitae, justo. Nullam dictum felis eu pede
-                      mollis pretium. Integer tincidunt. Cras dapibus.
+                      To solve the problem, the tool was designed to Extract and
+                      Decode: Convert the PDF data into a Base64 array buffer.
+                      Parse and Transform: Utilize pdfjs-dist to interpret and
+                      extract meaningful text from the reports. Convert to JSON:
+                      Structure the extracted data into JSON format for easy
+                      processing. Validation Mechanism: Implement logic to
+                      verify that all mandatory items were present in each
+                      report. Optimize Performance: Ensure efficient processing
+                      to handle large volumes of reports quickly. The resulting
+                      system automated the verification process, reducing the
+                      need for manual checks while improving accuracy and
+                      efficiency.
                     </p>
                     <div className="row g-3 g-md-6">
                       <div className="col-sm-6 overflow-hidden">
                         <Image
-                          src={project2}
+                          src={encoding}
                           alt="project"
                           className="w-100 object-fit-cover portfolio-details-img"
                         />
                       </div>
                       <div className="col-sm-6 overflow-hidden">
                         <Image
-                          src={project3}
+                          src={json}
                           alt="project"
                           className="w-100 object-fit-cover portfolio-details-img"
                         />
                       </div>
                     </div>
-                    <p className="text-seven n4-color mt-5 mt-md-10">
-                      Short description of the client and project requirements.
-                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                      Aenean commodo ligula eget dolor. Lorem ipsum dolor sit
-                      amet, consectetuer adipiscing elit. Aenean commodo ligula
-                      eget dolor.
-                    </p>
                   </div>
                 </FadeDown>
                 <FadeDown>
@@ -207,14 +202,15 @@ const PortfolioDetails = () => {
                             </span>
                           </div>
                           <p className="fs-eight n4-color">
-                            Metric description lorem ipsum dolor sit amet.
+                            Automated data extraction reduced manual
+                            verification time.
                           </p>
                         </div>
                       </div>
                       <div className="col-sm-6 col-xl-4 col-xxl-3">
                         <div className="bgn2-color brn4 p-3 p-md-5">
                           <span className="p1-color fs-six fw-medium mb-2 d-block">
-                            Customer Happy
+                            Customer Satisfaction
                           </span>
                           <div className="d-flex align-items-end gap-1 mb-2 mb-md-3">
                             <h4 className="fs-three n5-color fw-semibold">
@@ -225,7 +221,8 @@ const PortfolioDetails = () => {
                             </span>
                           </div>
                           <p className="fs-eight n4-color">
-                            Metric description lorem ipsum dolor sit amet.
+                            Store managers and auditors experienced a
+                            streamlined verification process.
                           </p>
                         </div>
                       </div>
@@ -234,13 +231,10 @@ const PortfolioDetails = () => {
                           <span className="p1-color fs-six fw-medium mb-2 d-block">
                             Sales Generated
                           </span>
-                          <div className="d-flex align-items-end gap-1 mb-2 mb-md-3">
-                            <h4 className="fs-three n5-color fw-semibold">
-                              $130K
-                            </h4>
-                          </div>
+                          <div className="d-flex align-items-end gap-1 mb-2 mb-md-3"></div>
                           <p className="fs-eight n4-color">
-                            Metric description lorem ipsum dolor sit amet.
+                            Ensuring complete order fulfillment led to increased
+                            sales and reduced stock shortages.
                           </p>
                         </div>
                       </div>
@@ -258,23 +252,17 @@ const PortfolioDetails = () => {
                             </span>
                           </div>
                           <p className="fs-eight n4-color">
-                            Metric description lorem ipsum dolor sit amet.
+                            Automation reduced labor costs and minimized errors
+                            in order validation. The implementation of the
+                            PDF-to-JSON converter tool significantly improved
+                            operational efficiency for the client, making the
+                            order verification process faster, more reliable,
+                            and cost-effective.
                           </p>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <p data-aos="fade-up" className="text-seven n4-color">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                    Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
-                    natoque penatibus et magnis dis parturient montes, nascetur
-                    ridiculus mus. Donec quam felis, ultricies nec, pellentesque
-                    eu, pretium quis, sem. Nulla consequat massa quis enim.
-                    Donec pede justo, fringilla vel, aliquet nec, vulputate
-                    eget, arcu. In enim justo, rhoncus ut, imperdiet a,
-                    venenatis vitae, justo. Nullam dictum felis eu pede mollis
-                    pretium. Integer tincidunt. Cras dapibus.
-                  </p>
                 </FadeDown>
               </div>
             </div>

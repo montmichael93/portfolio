@@ -18,7 +18,6 @@ const About = () => {
       <WhatDo />
       <NextProject />
       <Featured />
-      <LatestBlog />
       <Footer />
     </div>
   );

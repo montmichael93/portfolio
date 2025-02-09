@@ -112,7 +112,7 @@ const Contact = () => {
           <FadeDown>
             <div data-aos="zoom-in" className="mt-8 mt-md-15">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3747016.8778039054!2d87.7035567133411!3d23.489442669650543!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30adaaed80e18ba7%3A0xf2d28e0c4e1fc6b!2sBangladesh!5e0!3m2!1sen!2sbd!4v1719998700959!5m2!1sen!2sbd"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3017.7906431492524!2d-73.91061072414966!3d40.85452007137248!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f4723f51af77%3A0x7a4bcc5f08df7796!2s2067%20Davidson%20Ave%2C%20Bronx%2C%20NY%2010453!5e0!3m2!1sen!2sus!4v1738618142135!5m2!1sen!2sus"
                 loading="lazy"
                 className="w-100 h-400 border-0"
               ></iframe>
@@ -120,7 +120,7 @@ const Contact = () => {
           </FadeDown>
         </div>
       </section>
-      <GetInTouch />
+
       <Footer />
     </div>
   );

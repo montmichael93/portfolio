@@ -66,13 +66,13 @@ export const services = [
   {
     id: 4,
     title: "Amazon Web Service",
-    des: "List skills and technologies here. Customize as needed. Built on HTML5, Sass, and Bootstrap 5.",
+    des: "API Deployment with Docker and EC2, API Deployment with Github Actions, Multi-Availability Zone EC2 Deployment",
     imgs: [aws],
   },
   {
     id: 5,
     title: "docker",
-    des: "List skills and technologies here. Customize as needed. Built on HTML5, Sass, and Bootstrap 5.",
+    des: "automating Docker setup workflow using GitHub Actions and YAML, ",
     imgs: [docker],
   },
   {
@@ -90,7 +90,7 @@ export const services = [
   {
     id: 8,
     title: "Tailwind",
-    des: "List skills and technologies here. Customize as needed. Built on HTML5, Sass, and Bootstrap 5.",
+    des: "optimizing design consistency and maintainability across web applications.",
     imgs: [tailwind],
   },
 ];
