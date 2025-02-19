@@ -47,7 +47,7 @@ const Resume = () => {
                     Michael Montero
                   </h2>
                   <span className="n4-color fs-six fw-medium">
-                    Junior Software Engineer
+                    Software Engineer
                   </span>
                 </div>
                 <div className="ps-5 br-left-n3">
@@ -93,14 +93,17 @@ const Resume = () => {
                   />
                 </div>
                 <p className="n42-color fs-seven">
-                  Translate client business needs into scalable technical
-                  solutions that grow alongside their business. Experience
-                  across multiple industries, providing diverse insights for
-                  effective problem-solving. Native Spanish speaker with
-                  extensive exposure to various industry software, driven by a
-                  strong curiosity to enhance user experiences. Passionate about
-                  staying up-to-date with tech trends through reading and
-                  research to continuously improve as a technologist.
+                  Passionate Frontend Engineer with several years experience in
+                  designing and engineering UIs. Building intuitive, responsive,
+                  scalable, high-performance applications using tools like React
+                  and TypeScript and a Master of the Javascript ecosystem.
+                  Always keeping up to date with the latest trends with frontend
+                  technologies and utilizing design patterns to create simple
+                  and reusable components for complex UIs. Deeply familiar with
+                  data structures and algorithms, profiling and optimization of
+                  user interfaces, working with huge sets of data, and
+                  collaborating across teams. Passionately value code
+                  simplicity, performance, details and the developer experience.
                 </p>
               </div>
 
@@ -119,7 +122,7 @@ const Resume = () => {
                         Freelance Web Developer
                       </span>
                       <span className="n4-color fs-eight">
-                        Freelancer | 2023 - Present
+                        Freelancer | 2020 - Present
                       </span>
                     </div>
                     <p className="n42-color fs-seven my-2 my-md-5">
@@ -135,14 +138,23 @@ const Resume = () => {
                     </p>
                     <ul className="d-flex flex-column gap-3 ms-6 ms-lg-10">
                       <li className="n42-color fs-seven">
-                        Conducted thorough testing and debugging to ensure
-                        seamless user experiences across devices and browsers.
+                        Built a scalable, mobile-responsive UI using React,
+                        Chakra UI, and React Router for seamless pivots from one
+                        view to the next.
                       </li>
                       <li className="n42-color fs-seven">
-                        Optimized website performance
+                        Automated content updates via YouTube API to streamline
+                        the flow of data from platform to thousands of users,
+                        reducing manual effort and saving the client time &
+                        money.
                       </li>
                       <li className="n42-color fs-seven">
-                        Automation of Client interactions
+                        Implemented Google Analytics to monitor the health and
+                        performance of the site
+                      </li>
+                      <li className="n42-color fs-seven">
+                        Design and deliver features that have direct impact on
+                        thousands of users
                       </li>
                     </ul>
                   </div>
@@ -166,19 +178,20 @@ const Resume = () => {
                     </p>
                     <ul className="d-flex flex-column gap-3 ms-6 ms-lg-10">
                       <li className="n42-color fs-seven">
-                        Enhanced data accuracy and efficiency by automating
-                        manual processes, reducing errors in sales and order
-                        management.
+                        Developed a PDF-to-JSON converter, automating order
+                        verification and reducing manual errors.
                       </li>
                       <li className="n42-color fs-seven">
-                        Optimized report generation workflows, improving
-                        decision-making speed for inventory and fulfillment
-                        operations.
+                        Optimized parsing logic, improving processing speed by
+                        ~40% for large PDFs.
                       </li>
                       <li className="n42-color fs-seven">
-                        Collaborated with stakeholders to refine data processing
-                        strategies, ensuring seamless integration with existing
-                        business systems.
+                        Integrated into business workflows, increasing accuracy
+                        in order fulfillment.
+                      </li>
+                      <li className="n42-color fs-seven">
+                        improve performance and address scalability and
+                        performance challenges
                       </li>
                     </ul>
                   </div>
@@ -260,6 +273,28 @@ const Resume = () => {
                       performance and responsiveness to ensure a seamless
                       browsing experience across devices.
                     </p>
+                    <ul className="d-flex flex-column gap-3 ms-6 ms-lg-10">
+                      <li className="n42-color fs-seven">
+                        Built a scalable, mobile-responsive UI using React,
+                        Chakra UI, and React Router for seamless pivots from one
+                        view to the next.
+                      </li>
+                      <li className="n42-color fs-seven">
+                        Automated content updates via YouTube API to streamline
+                        the flow of data from platform to thousands of users,
+                        reducing manual effort and saving the client time &
+                        money.
+                      </li>
+
+                      <li className="n42-color fs-seven">
+                        Implemented Google Analytics to monitor the health and
+                        performance of the site
+                      </li>
+                      <li className="n42-color fs-seven">
+                        Design and deliver features that have direct impact on
+                        thousands of users
+                      </li>
+                    </ul>
                   </div>
                   <div className="mb-4 mb-md-6">
                     <div className="d-flex flex-wrap gap-1 gap-sm-3 justify-content-between align-items-center mb-2 mb-md-4">
@@ -280,7 +315,27 @@ const Resume = () => {
                       functionality, ensuring seamless adoption and alignment
                       with business needs.
                     </p>
+                    <ul className="d-flex flex-column gap-3 ms-6 ms-lg-10">
+                      <li className="n42-color fs-seven">
+                        Developed a PDF-to-JSON converter, automating order
+                        verification and reducing manual errors.
+                      </li>
+                      <li className="n42-color fs-seven">
+                        Optimized parsing logic, improving processing speed by
+                        ~40% for large PDFs.
+                      </li>
+
+                      <li className="n42-color fs-seven">
+                        Integrated into business workflows, increasing accuracy
+                        in order fulfillment.
+                      </li>
+                      <li className="n42-color fs-seven">
+                        improve performance and address scalability and
+                        performance challenges
+                      </li>
+                    </ul>
                   </div>
+
                   <div>
                     <div className="d-flex flex-wrap gap-2 gap-sm-3 justify-content-between align-items-center mb-2 mb-md-4">
                       <span className="n5-color fs-six fw-medium">

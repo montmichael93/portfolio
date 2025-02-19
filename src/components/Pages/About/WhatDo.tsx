@@ -30,7 +30,7 @@ const WhatDo = () => {
                 <h2 className="display-four n5-color fw-semibold">What I do</h2>
               </div>
               <p className="fs-seven n4-color mt-2 mt-md-4">
-                I have more than 3 years experience building software for
+                I have more than 5 years experience building software for
                 clients all over the world. Below is a quick overview of my main
                 technical skill sets and technologies I use. Want to find out
                 more about my experience? Check out my 
