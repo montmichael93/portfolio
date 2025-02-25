@@ -69,7 +69,7 @@ const PortfolioDetails = () => {
                         Website
                       </span>
                       <Link
-                        href="#"
+                        href="https://pdf-analyzer-pi.vercel.app/"
                         className="n5-color fs-six fw-medium d-flex align-items-center gap-2"
                       >
                         Live preview <PiArrowRight />
