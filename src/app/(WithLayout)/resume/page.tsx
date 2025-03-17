@@ -47,7 +47,7 @@ const Resume = () => {
                     Michael Montero
                   </h2>
                   <span className="n4-color fs-six fw-medium">
-                    Software Engineer
+                    Software <em>developer</em>
                   </span>
                 </div>
                 <div className="ps-5 br-left-n3">
@@ -92,18 +92,50 @@ const Resume = () => {
                     height="159"
                   />
                 </div>
+
                 <p className="n42-color fs-seven">
-                  Passionate Frontend Engineer with several years experience in
-                  designing and engineering UIs. Building intuitive, responsive,
-                  scalable, high-performance applications using tools like React
-                  and TypeScript and a Master of the Javascript ecosystem.
-                  Always keeping up to date with the latest trends with frontend
-                  technologies and utilizing design patterns to create simple
-                  and reusable components for complex UIs. Deeply familiar with
-                  data structures and algorithms, profiling and optimization of
-                  user interfaces, working with huge sets of data, and
-                  collaborating across teams. Passionately value code
-                  simplicity, performance, details and the developer experience.
+                  <ul>
+                    <li>
+                      - Results-driven <strong> Software Developer </strong>{" "}
+                      with orientation towards <strong> Frontend </strong> with{" "}
+                      <strong> 3+ years of experience </strong> developing high
+                      performance web and mobile applications. Expertise in
+                      <strong>
+                        React.js, Next.js, TypeScript, and GraphQL
+                      </strong>
+                      , with a strong foundation in{" "}
+                      <strong>
+                        {" "}
+                        backend technologies like Node.js, Express.js, and
+                        Python (Django, FastAPI)
+                      </strong>
+                      . Skilled in building scalable{" "}
+                      <strong>
+                        {" "}
+                        server-side rendering (SSR) and static site generation
+                        (SSG) solutions{" "}
+                      </strong>{" "}
+                      while optimizing UI/UX using{" "}
+                      <strong>
+                        Tailwind CSS, React Native, and Styled Components.{" "}
+                      </strong>
+                    </li>
+                    <li>
+                      - Proven ability to integrate and manage{" "}
+                      <strong> RESTful & GraphQL APIs </strong>, streamline{" "}
+                      <strong> state management with Redux & Zustand</strong>,
+                      and deploy cloud-based applications on{" "}
+                      <strong>AWS (S3, Lambda, EC2) </strong> with{" "}
+                      <strong> Docker & Terraform</strong>. Experienced in{" "}
+                      <strong>CI/CD automation using GitHub Actions </strong>{" "}
+                      and ensuring accessibility compliance with{" "}
+                      <strong>
+                        {" "}
+                        WCAG & performance optimizations via Lighthouse
+                      </strong>
+                      .
+                    </li>
+                  </ul>
                 </p>
               </div>
 
@@ -114,6 +146,114 @@ const Resume = () => {
                     <h2 className="fs-three p1-color fw-semibold">
                       Work Experiences
                     </h2>
+                  </div>
+
+                  <div className="mb-4 mb-md-6">
+                    <div className="d-flex flex-wrap gap-2 gap-sm-3 justify-content-between align-items-center">
+                      <span className="n5-color fs-six fw-medium">
+                        Software Developer
+                      </span>
+                      <span className="n4-color fs-eight">
+                        DXC Technologies | Oct 2023 – Present
+                      </span>
+                    </div>
+                    <p className="n42-color fs-seven my-2 my-md-5">
+                      Architected and deployed Next.js applications with
+                      server-side rendering (SSR) and static site generation
+                      (SSG) to enhance performance and SEO rankings. Developed
+                      reusable, scalable UI components using React.js,
+                      TypeScript, and Tailwind CSS, improving maintainability
+                      and design consistency. Integrated GraphQL APIs and
+                      optimized data fetching to enhance application
+                      responsiveness.
+                    </p>
+                    <ul className="d-flex flex-column gap-3 ms-6 ms-lg-10">
+                      <li className="n42-color fs-seven">
+                        Engineered efficient API communication using REST and
+                        GraphQL, streamlining backend interactions with Zustand
+                        and Redux Toolkit.
+                      </li>
+                      <li className="n42-color fs-seven">
+                        Enhanced backend capabilities by implementing Node.js &
+                        Express endpoints, ensuring seamless API connectivity.
+                      </li>
+                      <li className="n42-color fs-seven">
+                        Developed cross-platform mobile applications in React
+                        Native, optimizing performance for both iOS & Android
+                        platforms.
+                      </li>
+                      <li className="n42-color fs-seven">
+                        Integrated push notifications & deep linking using
+                        Firebase Cloud Messaging (FCM) to enhance mobile user
+                        engagement.
+                      </li>
+                      <li className="n42-color fs-seven">
+                        Deployed and managed applications on AWS (S3),
+                        leveraging cloud scalability for performance and cost
+                        efficiency.
+                      </li>
+                      <li className="n42-color fs-seven">
+                        Containerized and automated deployment pipelines using
+                        Docker and Terraform, ensuring consistent environments
+                        and scalable infrastructure.
+                      </li>
+                      <li className="n42-color fs-seven">
+                        Collaborated with UI/UX designers and backend engineers
+                        to align technical implementations with business
+                        requirements.
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div className="mb-4 mb-md-6">
+                    <div className="d-flex flex-wrap gap-2 gap-sm-3 justify-content-between align-items-center">
+                      <span className="n5-color fs-six fw-medium">
+                        Software Engineer - Frontend
+                      </span>
+                      <span className="n4-color fs-eight">
+                        Dell Technologies | Apr 2021 – Sep 2023
+                      </span>
+                    </div>
+                    <p className="n42-color fs-seven my-2 my-md-5">
+                      Developed high-performance web applications using React,
+                      TypeScript, and GraphQL, ensuring seamless UI/UX
+                      implementation. Engineered reusable frontend components by
+                      extending the company design system library, improving
+                      development efficiency. Integrated RESTful APIs and
+                      GraphQL endpoints while optimizing state management using
+                      React Context API and Zustand.
+                    </p>
+                    <ul className="d-flex flex-column gap-3 ms-6 ms-lg-10">
+                      <li className="n42-color fs-seven">
+                        Optimized web performance using Lighthouse, React
+                        Profiler, and DOM manipulation techniques, reducing load
+                        times.
+                      </li>
+                      <li className="n42-color fs-seven">
+                        Implemented secure authentication using JWT and best
+                        authorization practices in collaboration with backend
+                        engineers.
+                      </li>
+                      <li className="n42-color fs-seven">
+                        Developed CI/CD workflows using GitHub Actions & Docker,
+                        ensuring smooth deployment processes and faster
+                        releases.
+                      </li>
+                      <li className="n42-color fs-seven">
+                        Refactored and modularized legacy frontend code,
+                        replacing outdated patterns with modern React Hooks,
+                        Next.js, and TypeScript best practices.
+                      </li>
+                      <li className="n42-color fs-seven">
+                        Conducted testing using Jest, Cypress, and Playwright,
+                        improving application reliability and reducing
+                        post-deployment bugs.
+                      </li>
+                      <li className="n42-color fs-seven">
+                        Ensured cross-browser compatibility and accessibility
+                        compliance with WCAG, HTML5, and CSS best practices.
+                      </li>
+                    </ul>
                   </div>
 
                   <div className="mb-4 mb-md-6">
@@ -158,75 +298,7 @@ const Resume = () => {
                       </li>
                     </ul>
                   </div>
-                  <div className="mb-4 mb-md-6">
-                    <div className="d-flex flex-wrap gap-1 gap-sm-3 justify-content-between align-items-center">
-                      <span className="n5-color fs-six fw-medium">CCA</span>
-                      <span className="n4-color fs-eight">
-                        Citarella | 2024 - present
-                      </span>
-                    </div>
-                    <p className="n42-color fs-seven my-2 my-md-5">
-                      Leveraged Sage X3’s UI components to perform CRUD
-                      operations on sales and order data within the company
-                      database, ensuring alignment with business requirements.
-                      Collaborated cross-functionally with stores and
-                      departments to generate reports, enabling data-driven
-                      inventory and fulfillment decisions. Developed a PDF
-                      analyzer to convert PDF data into JSON, automating order
-                      verification to ensure stores placed the necessary daily
-                      orders.
-                    </p>
-                    <ul className="d-flex flex-column gap-3 ms-6 ms-lg-10">
-                      <li className="n42-color fs-seven">
-                        Developed a PDF-to-JSON converter, automating order
-                        verification and reducing manual errors.
-                      </li>
-                      <li className="n42-color fs-seven">
-                        Optimized parsing logic, improving processing speed by
-                        ~40% for large PDFs.
-                      </li>
-                      <li className="n42-color fs-seven">
-                        Integrated into business workflows, increasing accuracy
-                        in order fulfillment.
-                      </li>
-                      <li className="n42-color fs-seven">
-                        improve performance and address scalability and
-                        performance challenges
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="mb-4 mb-md-6">
-                    <div className="d-flex flex-wrap gap-1 gap-sm-3 justify-content-between align-items-center">
-                      <span className="n5-color fs-six fw-medium">
-                        Retention Rep
-                      </span>
-                      <span className="n4-color fs-eight">
-                        Alorica | 2022 - 2023
-                      </span>
-                    </div>
-                    <p className="n42-color fs-seven my-2 my-md-5">
-                      Managed and strengthened over 900 client relationships by
-                      providing tailored solutions and exclusive offers.
-                      Prevented fraudulent access by verifying up to 50 client
-                      accounts daily through meticulous data analysis. Provided
-                      technical support for more than 300 smartphones,
-                      diagnosing issues and guiding clients on best practices.
-                      Utilized company software to manage customer data, analyze
-                      trends, and optimize client interactions, demonstrating
-                      strong problem-solving and technical skills.
-                    </p>
-                    <ul className="d-flex flex-column gap-3 ms-6 ms-lg-10">
-                      <li className="n42-color fs-seven">
-                        Retained 900 client relationships: retained client
-                        relationships by offering exclusive offers
-                      </li>
-                      <li className="n42-color fs-seven">
-                        Technically supported: troubleshooting over 300
-                        smartphones and communicated with clients on best
-                        practices.
-                      </li>
-                    </ul>
-                  </div>
+
                   <div className="mb-4 mb-md-6">
                     <div className="d-flex flex-wrap gap-1 gap-sm-3 justify-content-between align-items-center mb-2 mb-md-4">
                       <span className="n5-color fs-six fw-medium">MSR</span>
@@ -361,39 +433,86 @@ const Resume = () => {
 
                       <div className="mb-3 mb-md-6">
                         <h5 className="fs-six n5-color fw-medium mb-2 mb-md-4">
-                          Technical
+                          Languages & Frameworks:
                         </h5>
                         <ul className="d-flex flex-column gap-3 ms-6 ms-lg-10">
-                          <li className="n4-color fs-seven">React/Angular</li>
-                          <li className="n4-color fs-seven">NPM</li>
-                          <li className="n4-color fs-seven">Node.js</li>
-                          <li className="n4-color fs-seven">MySQL</li>
                           <li className="n4-color fs-seven">
-                            Object-oriented design
+                            JavaScript, TypeScript, Python, HTML, CSS, SCSS
                           </li>
                           <li className="n4-color fs-seven">
-                            Design and implement database structures
-                          </li>
-                          <li className="n4-color fs-seven">
-                            Lead and deliver complex software systems
+                            React, Next.js, React Native, Redux, Vue.js
                           </li>
                         </ul>
-                      </div>
 
-                      <div>
                         <h5 className="fs-six n5-color fw-medium mb-2 mb-md-4">
-                          Professional
+                          UI & Styling:
                         </h5>
                         <ul className="d-flex flex-column gap-3 ms-6 ms-lg-10">
                           <li className="n4-color fs-seven">
-                            Effective communication
-                          </li>
-                          <li className="n4-color fs-seven">Team player</li>
-                          <li className="n4-color fs-seven">
-                            Strong problem solver
+                            Bootstrap, Tailwind CSS, Material-UI (MUI), Chakra
+                            UI
                           </li>
                           <li className="n4-color fs-seven">
-                            Good time management
+                            Styled Components, Ant Design
+                          </li>
+                        </ul>
+
+                        <h5 className="fs-six n5-color fw-medium mb-2 mb-md-4">
+                          State Management & Performance:
+                        </h5>
+                        <ul className="d-flex flex-column gap-3 ms-6 ms-lg-10">
+                          <li className="n4-color fs-seven">
+                            React Context API, Zustand, Redux Toolkit, Recoil
+                          </li>
+                          <li className="n4-color fs-seven">
+                            React Profiler, Lighthouse
+                          </li>
+                        </ul>
+
+                        <h5 className="fs-six n5-color fw-medium mb-2 mb-md-4">
+                          Testing & CI/CD:
+                        </h5>
+                        <ul className="d-flex flex-column gap-3 ms-6 ms-lg-10">
+                          <li className="n4-color fs-seven">
+                            Jest, Vitest, Cypress, Playwright, Testing Library,
+                            PyTest
+                          </li>
+                          <li className="n4-color fs-seven">
+                            GitHub Actions, CircleCI
+                          </li>
+                        </ul>
+
+                        <h5 className="fs-six n5-color fw-medium mb-2 mb-md-4">
+                          Backend & Databases:
+                        </h5>
+                        <ul className="d-flex flex-column gap-3 ms-6 ms-lg-10">
+                          <li className="n4-color fs-seven">
+                            Express.js, Node.js, FastAPI, Flask, Django, Prisma
+                          </li>
+                          <li className="n4-color fs-seven">
+                            PostgreSQL, SQLite, Firebase, MongoDB, GraphQL
+                          </li>
+                        </ul>
+
+                        <h5 className="fs-six n5-color fw-medium mb-2 mb-md-4">
+                          Cloud & DevOps:
+                        </h5>
+                        <ul className="d-flex flex-column gap-3 ms-6 ms-lg-10">
+                          <li className="n4-color fs-seven">
+                            AWS (S3, Lambda, EC2), Docker, Kubernetes, Terraform
+                          </li>
+                          <li className="n4-color fs-seven">Vercel, Netlify</li>
+                        </ul>
+
+                        <h5 className="fs-six n5-color fw-medium mb-2 mb-md-4">
+                          Version Control & Workflow:
+                        </h5>
+                        <ul className="d-flex flex-column gap-3 ms-6 ms-lg-10">
+                          <li className="n4-color fs-seven">
+                            Git, GitHub, GitLab, Bitbucket
+                          </li>
+                          <li className="n4-color fs-seven">
+                            Agile, Scrum, Jira
                           </li>
                         </ul>
                       </div>
@@ -413,10 +532,11 @@ const Resume = () => {
                         </i>
                         <div>
                           <span className="n4-color fs-seven">
-                            TCI College of Technology
+                            <strong>Bachelor’s in Computer Science</strong>,
+                            <em> TCI College of Technology </em>
                           </span>
                           <span className="n4-color fs-eleven">
-                            2015 - 2015
+                            Sep 2017 – Sep 2019
                           </span>
                         </div>
                       </div>
@@ -426,7 +546,8 @@ const Resume = () => {
                         </i>
                         <div>
                           <span className="n4-color fs-seven">
-                            Devslopes Academy
+                            <strong>Full Stack Software Certificate</strong>,{" "}
+                            <em>Devslopes </em>
                           </span>
                           <span className="n4-color fs-eleven">
                             2022 - 2024

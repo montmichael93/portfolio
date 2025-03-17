@@ -117,7 +117,7 @@ const Sidebar = () => {
                   Michael Montero
                 </h4>
                 <span className="n5-color fs-nine d-block text-center">
-                  Software Engineer
+                  Software <em>Developer </em>
                 </span>
                 <div className="d-flex justify-content-center gap-2 align-items-center mt-4">
                   <Link
